@@ -11,7 +11,9 @@ export default ({ data }) => {
     <Layout>
       <div css={css`
         padding-left: ${rhythm(1)};
+        grid-area: b;
         grid-column: 1 / span 5;
+        min-height: 80vh;
         `}>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id} css={css`

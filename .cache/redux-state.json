@@ -1,0 +1,2275 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f8c4c0ef238250c6fcfb1d0eacee3437",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f6ae643206b85b1dbee106bfce7ef351",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f29b1fce71d58cafbb753e850eb5d920",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a1c5760487d79d827d7faea61ece8301",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "321dc67799d9cb6ad4d4b7e18607ef12",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d40dd363cb682eed37eb41058069d41f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fe004c69a7a7c943a6981d061f6a2c88",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0830d6d1-23cc-5277-b865-89b2be1b13a8": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby-source-filesystem",
+      "id": "0830d6d1-23cc-5277-b865-89b2be1b13a8",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3abd12c6c22a617c10e547867888ea97",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.4",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e0d62fb8d1f1268f7b442b6c218cb357",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2c5d3a96-6fe0-5775-b8fc-e9860a1a2177": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby-plugin-emotion",
+      "id": "2c5d3a96-6fe0-5775-b8fc-e9860a1a2177",
+      "name": "gatsby-plugin-emotion",
+      "version": "4.0.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby-plugin-emotion",
+      "packageJson": {
+        "name": "gatsby-plugin-emotion",
+        "description": "Gatsby plugin to add support for Emotion",
+        "version": "4.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "emotion",
+          "css-in-js"
+        ],
+        "author": {
+          "name": "Tegan Churchill",
+          "email": "churchill.tegan@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@emotion/babel-preset-css-prop",
+            "version": "10.0.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "@emotion/core",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ba97e2ea69a1e1ceb6aff7d833b93903",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby-plugin-typography",
+      "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.10",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody",
+        "onPreRenderHTML"
+      ],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "268434325535aaed89218467d43c4023",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "4cfa6b2e543855aa5ef9ff87abe81922",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "A simplified bare-bones starter for Gatsby",
+        "version": "0.1.0",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@emotion/core",
+            "version": "^10.0.7"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.107"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "^4.0.3"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.10"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.2.4"
+          },
+          {
+            "name": "react",
+            "version": "^16.7.0"
+          },
+          {
+            "name": "react-burger-menu",
+            "version": "^2.6.5"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.7.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.19"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.19"
+          },
+          {
+            "name": "typography-theme-kirkham",
+            "version": "^0.16.19"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "615bec24ea27ae1c20902897dec717eb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "538ffeee-8531-50b7-b5b6-90f57d93a534": {
+      "resolve": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby-plugin-page-creator",
+      "id": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1df7b6a22fc918e60a643b980b174185",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Eponym Design Co."
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-03-18T22:31:54.511Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3e9ff7d552aa118f255e28799e7ea4a1",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "aa059d37-e3cb-54d0-8426-be50978be936": {
+      "id": "aa059d37-e3cb-54d0-8426-be50978be936",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "15cfbeeaa099753df075df93252daaf7",
+        "type": "Directory",
+        "description": "Directory \"src\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2019-03-12T22:03:16.797Z",
+      "accessTime": "2019-03-18T22:33:05.489Z",
+      "changeTime": "2019-03-18T21:04:37.904Z",
+      "birthTime": "2019-02-01T23:34:47.660Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890253776,
+      "blocks": 0,
+      "atimeMs": 1552948385488.685,
+      "mtimeMs": 1552428196797.4446,
+      "ctimeMs": 1552943077903.566,
+      "birthtimeMs": 1549064087660.2,
+      "atime": "2019-03-18T22:33:05.489Z",
+      "mtime": "2019-03-12T22:03:16.797Z",
+      "ctime": "2019-03-18T21:04:37.904Z",
+      "birthtime": "2019-02-01T23:34:47.660Z"
+    },
+    "3d280000-7650-50c3-99d3-38b8cfd696f8": {
+      "id": "3d280000-7650-50c3-99d3-38b8cfd696f8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fb5900e32394301d7fb261d9ad7ed1e2",
+        "type": "Directory",
+        "description": "Directory \"src/img\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/img",
+      "relativePath": "img",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-03-12T22:15:49.366Z",
+      "accessTime": "2019-03-18T22:33:05.492Z",
+      "changeTime": "2019-03-18T21:04:37.869Z",
+      "birthTime": "2019-03-12T22:03:16.797Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src",
+      "base": "img",
+      "ext": "",
+      "name": "img",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289068,
+      "blocks": 0,
+      "atimeMs": 1552948385491.5396,
+      "mtimeMs": 1552428949365.7805,
+      "ctimeMs": 1552943077868.9312,
+      "birthtimeMs": 1552428196797.4312,
+      "atime": "2019-03-18T22:33:05.492Z",
+      "mtime": "2019-03-12T22:15:49.366Z",
+      "ctime": "2019-03-18T21:04:37.869Z",
+      "birthtime": "2019-03-12T22:03:16.797Z"
+    },
+    "61a6b538-61b4-509c-b37f-8f701030f3f7": {
+      "id": "61a6b538-61b4-509c-b37f-8f701030f3f7",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3ac5e1fe54cf674997185758a4d33b1b",
+        "type": "Directory",
+        "description": "Directory \"src/components\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2019-03-18T21:47:34.278Z",
+      "accessTime": "2019-03-18T22:33:05.492Z",
+      "changeTime": "2019-03-18T21:47:34.278Z",
+      "birthTime": "2019-02-05T02:16:34.200Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289071,
+      "blocks": 0,
+      "atimeMs": 1552948385491.536,
+      "mtimeMs": 1552945654277.5378,
+      "ctimeMs": 1552945654277.5378,
+      "birthtimeMs": 1549332994199.6301,
+      "atime": "2019-03-18T22:33:05.492Z",
+      "mtime": "2019-03-18T21:47:34.278Z",
+      "ctime": "2019-03-18T21:47:34.278Z",
+      "birthtime": "2019-02-05T02:16:34.200Z"
+    },
+    "491997c6-d4b5-5801-8ce5-a13eb6028edd": {
+      "id": "491997c6-d4b5-5801-8ce5-a13eb6028edd",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "878cc3b4a7a8b58f28106d4bf0670488",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2019-03-13T21:39:09.560Z",
+      "accessTime": "2019-03-18T22:33:05.492Z",
+      "changeTime": "2019-03-18T21:04:37.903Z",
+      "birthTime": "2019-02-01T23:34:47.660Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289079,
+      "blocks": 0,
+      "atimeMs": 1552948385491.7612,
+      "mtimeMs": 1552513149559.6438,
+      "ctimeMs": 1552943077903.0735,
+      "birthtimeMs": 1549064087660.2554,
+      "atime": "2019-03-18T22:33:05.492Z",
+      "mtime": "2019-03-13T21:39:09.560Z",
+      "ctime": "2019-03-18T21:04:37.903Z",
+      "birthtime": "2019-02-01T23:34:47.660Z"
+    },
+    "77cfd122-b946-51d2-bf34-50d440dd885c": {
+      "id": "77cfd122-b946-51d2-bf34-50d440dd885c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "43da5b53de2a0cd17eb8b880493b989b",
+        "type": "Directory",
+        "description": "Directory \"src/templates\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates",
+      "relativePath": "templates",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-05T14:47:33.033Z",
+      "accessTime": "2019-03-18T22:33:05.492Z",
+      "changeTime": "2019-03-18T21:04:37.876Z",
+      "birthTime": "2019-02-05T14:47:25.929Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src",
+      "base": "templates",
+      "ext": "",
+      "name": "templates",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289077,
+      "blocks": 0,
+      "atimeMs": 1552948385491.7456,
+      "mtimeMs": 1549378053032.5293,
+      "ctimeMs": 1552943077876.0798,
+      "birthtimeMs": 1549378045929.337,
+      "atime": "2019-03-18T22:33:05.492Z",
+      "mtime": "2019-02-05T14:47:33.033Z",
+      "ctime": "2019-03-18T21:04:37.876Z",
+      "birthtime": "2019-02-05T14:47:25.929Z"
+    },
+    "3b246bde-b671-575d-8bce-755971b0e56d": {
+      "id": "3b246bde-b671-575d-8bce-755971b0e56d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ccb81187bf39bcc04e98e2411e4f5700",
+        "type": "Directory",
+        "description": "Directory \"src/utils\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/utils",
+      "relativePath": "utils",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-05T02:19:34.610Z",
+      "accessTime": "2019-03-18T22:33:05.492Z",
+      "changeTime": "2019-03-18T21:04:37.867Z",
+      "birthTime": "2019-02-05T02:19:28.085Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src",
+      "base": "utils",
+      "ext": "",
+      "name": "utils",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289066,
+      "blocks": 0,
+      "atimeMs": 1552948385491.7664,
+      "mtimeMs": 1549333174609.7568,
+      "ctimeMs": 1552943077867.0212,
+      "birthtimeMs": 1549333168084.5146,
+      "atime": "2019-03-18T22:33:05.492Z",
+      "mtime": "2019-02-05T02:19:34.610Z",
+      "ctime": "2019-03-18T21:04:37.867Z",
+      "birthtime": "2019-02-05T02:19:28.085Z"
+    },
+    "4979169b-5d44-5f98-8e14-f1b8e6fe3eed": {
+      "id": "4979169b-5d44-5f98-8e14-f1b8e6fe3eed",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3436aff147f96bb20a624bb18685d42c",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/footer.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components/footer.js",
+      "relativePath": "components/footer.js",
+      "extension": "js",
+      "size": 287,
+      "prettySize": "287 B",
+      "modifiedTime": "2019-03-18T22:27:16.313Z",
+      "accessTime": "2019-03-18T22:27:16.600Z",
+      "changeTime": "2019-03-18T22:27:16.313Z",
+      "birthTime": "2019-03-13T13:15:03.564Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components",
+      "base": "footer.js",
+      "ext": ".js",
+      "name": "footer",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289076,
+      "blocks": 8,
+      "atimeMs": 1552948036599.512,
+      "mtimeMs": 1552948036312.6335,
+      "ctimeMs": 1552948036312.6335,
+      "birthtimeMs": 1552482903563.8447,
+      "atime": "2019-03-18T22:27:16.600Z",
+      "mtime": "2019-03-18T22:27:16.313Z",
+      "ctime": "2019-03-18T22:27:16.313Z",
+      "birthtime": "2019-03-13T13:15:03.564Z"
+    },
+    "bf013204-fcc4-5070-a5da-02b20847b78b": {
+      "id": "bf013204-fcc4-5070-a5da-02b20847b78b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "eaf91f0683d5154a704ceda6cd0e75e8",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/layout.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components/layout.js",
+      "relativePath": "components/layout.js",
+      "extension": "js",
+      "size": 629,
+      "prettySize": "629 B",
+      "modifiedTime": "2019-03-18T22:33:25.724Z",
+      "accessTime": "2019-03-18T22:33:25.897Z",
+      "changeTime": "2019-03-18T22:33:25.724Z",
+      "birthTime": "2019-02-05T02:16:39.905Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components",
+      "base": "layout.js",
+      "ext": ".js",
+      "name": "layout",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289072,
+      "blocks": 8,
+      "atimeMs": 1552948405896.5251,
+      "mtimeMs": 1552948405723.514,
+      "ctimeMs": 1552948405723.514,
+      "birthtimeMs": 1549332999905.1145,
+      "atime": "2019-03-18T22:33:25.897Z",
+      "mtime": "2019-03-18T22:33:25.724Z",
+      "ctime": "2019-03-18T22:33:25.724Z",
+      "birthtime": "2019-02-05T02:16:39.905Z"
+    },
+    "7056ea37-7197-50dd-a228-43c3a4888507": {
+      "id": "7056ea37-7197-50dd-a228-43c3a4888507",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d5ad5a69532fe9715d16a189e85bd7a9",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/header.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components/header.js",
+      "relativePath": "components/header.js",
+      "extension": "js",
+      "size": 1678,
+      "prettySize": "1.68 kB",
+      "modifiedTime": "2019-03-18T22:30:59.472Z",
+      "accessTime": "2019-03-18T22:31:00.073Z",
+      "changeTime": "2019-03-18T22:30:59.472Z",
+      "birthTime": "2019-03-12T21:44:16.504Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components",
+      "base": "header.js",
+      "ext": ".js",
+      "name": "header",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289073,
+      "blocks": 8,
+      "atimeMs": 1552948260073.3855,
+      "mtimeMs": 1552948259472.1184,
+      "ctimeMs": 1552948259472.1184,
+      "birthtimeMs": 1552427056504.3452,
+      "atime": "2019-03-18T22:31:00.073Z",
+      "mtime": "2019-03-18T22:30:59.472Z",
+      "ctime": "2019-03-18T22:30:59.472Z",
+      "birthtime": "2019-03-12T21:44:16.504Z"
+    },
+    "b04982d6-1c37-522c-bbda-fae5eac5e830": {
+      "id": "b04982d6-1c37-522c-bbda-fae5eac5e830",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cbc593050cf08926a28adaaf119ae9cf",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/menuButton.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components/menuButton.js",
+      "relativePath": "components/menuButton.js",
+      "extension": "js",
+      "size": 691,
+      "prettySize": "691 B",
+      "modifiedTime": "2019-03-18T22:36:01.060Z",
+      "accessTime": "2019-03-18T22:36:01.072Z",
+      "changeTime": "2019-03-18T22:36:01.060Z",
+      "birthTime": "2019-03-15T21:40:28.460Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components",
+      "base": "menuButton.js",
+      "ext": ".js",
+      "name": "menuButton",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289074,
+      "blocks": 8,
+      "atimeMs": 1552948561071.6096,
+      "mtimeMs": 1552948561060.3694,
+      "ctimeMs": 1552948561060.3694,
+      "birthtimeMs": 1552686028460.3674,
+      "atime": "2019-03-18T22:36:01.072Z",
+      "mtime": "2019-03-18T22:36:01.060Z",
+      "ctime": "2019-03-18T22:36:01.060Z",
+      "birthtime": "2019-03-15T21:40:28.460Z"
+    },
+    "f1b33423-f5b5-5c81-afb6-90731982e9bf": {
+      "id": "f1b33423-f5b5-5c81-afb6-90731982e9bf",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "acb620f4c9c2d9fe519e19c0650d603b",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 1776,
+      "prettySize": "1.78 kB",
+      "modifiedTime": "2019-03-18T22:20:24.140Z",
+      "accessTime": "2019-03-18T22:20:24.150Z",
+      "changeTime": "2019-03-18T22:20:24.140Z",
+      "birthTime": "2019-02-01T23:34:47.660Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289083,
+      "blocks": 8,
+      "atimeMs": 1552947624149.948,
+      "mtimeMs": 1552947624139.911,
+      "ctimeMs": 1552947624139.911,
+      "birthtimeMs": 1549064087660.318,
+      "atime": "2019-03-18T22:20:24.150Z",
+      "mtime": "2019-03-18T22:20:24.140Z",
+      "ctime": "2019-03-18T22:20:24.140Z",
+      "birthtime": "2019-02-01T23:34:47.660Z"
+    },
+    "0e3f549a-e5bd-560c-8a96-00b2c9205e9c": {
+      "id": "0e3f549a-e5bd-560c-8a96-00b2c9205e9c",
+      "children": [
+        "f3054956-ac28-575b-a7a0-12ab0512390b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f5f442f4bc297d7fd1496cd2373b6975",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/bryson-bohler-wedding.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/bryson-bohler-wedding.md",
+      "relativePath": "pages/bryson-bohler-wedding.md",
+      "extension": "md",
+      "size": 406,
+      "prettySize": "406 B",
+      "modifiedTime": "2019-03-13T21:34:20.566Z",
+      "accessTime": "2019-03-18T21:10:55.972Z",
+      "changeTime": "2019-03-18T21:04:37.902Z",
+      "birthTime": "2019-02-05T03:00:02.840Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages",
+      "base": "bryson-bohler-wedding.md",
+      "ext": ".md",
+      "name": "bryson-bohler-wedding",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289085,
+      "blocks": 8,
+      "atimeMs": 1552943455972.399,
+      "mtimeMs": 1552512860565.9114,
+      "ctimeMs": 1552943077902.228,
+      "birthtimeMs": 1549335602839.8425,
+      "atime": "2019-03-18T21:10:55.972Z",
+      "mtime": "2019-03-13T21:34:20.566Z",
+      "ctime": "2019-03-18T21:04:37.902Z",
+      "birthtime": "2019-02-05T03:00:02.840Z"
+    },
+    "7fe38dab-f711-5655-8352-821f3c118036": {
+      "id": "7fe38dab-f711-5655-8352-821f3c118036",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a9fb38f577edf8dc3cc52901ea606288",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/404.js",
+      "relativePath": "pages/404.js",
+      "extension": "js",
+      "size": 419,
+      "prettySize": "419 B",
+      "modifiedTime": "2019-03-13T21:41:40.095Z",
+      "accessTime": "2019-03-18T21:10:55.972Z",
+      "changeTime": "2019-03-18T21:04:37.879Z",
+      "birthTime": "2019-03-13T21:39:09.560Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289081,
+      "blocks": 8,
+      "atimeMs": 1552943455972.3901,
+      "mtimeMs": 1552513300095.4878,
+      "ctimeMs": 1552943077878.6943,
+      "birthtimeMs": 1552513149559.6301,
+      "atime": "2019-03-18T21:10:55.972Z",
+      "mtime": "2019-03-13T21:41:40.095Z",
+      "ctime": "2019-03-18T21:04:37.879Z",
+      "birthtime": "2019-03-13T21:39:09.560Z"
+    },
+    "3a05670a-b3b5-5bf6-b4df-a99a474adf6f": {
+      "id": "3a05670a-b3b5-5bf6-b4df-a99a474adf6f",
+      "children": [
+        "cf31ade5-2112-5ebe-8a86-0202011a3d3b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e45f40fd39bd8f401cada5416005ff19",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/malik-for-akron.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/malik-for-akron.md",
+      "relativePath": "pages/malik-for-akron.md",
+      "extension": "md",
+      "size": 444,
+      "prettySize": "444 B",
+      "modifiedTime": "2019-03-13T21:34:38.244Z",
+      "accessTime": "2019-03-18T21:10:55.972Z",
+      "changeTime": "2019-03-18T21:04:37.901Z",
+      "birthTime": "2019-02-05T02:57:06.246Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages",
+      "base": "malik-for-akron.md",
+      "ext": ".md",
+      "name": "malik-for-akron",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289082,
+      "blocks": 8,
+      "atimeMs": 1552943455972.41,
+      "mtimeMs": 1552512878244.1584,
+      "ctimeMs": 1552943077900.9482,
+      "birthtimeMs": 1549335426245.572,
+      "atime": "2019-03-18T21:10:55.972Z",
+      "mtime": "2019-03-13T21:34:38.244Z",
+      "ctime": "2019-03-18T21:04:37.901Z",
+      "birthtime": "2019-02-05T02:57:06.246Z"
+    },
+    "04d3b04d-4e5e-549d-9776-ee6b2e07f7d0": {
+      "id": "04d3b04d-4e5e-549d-9776-ee6b2e07f7d0",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0114f2171a6696a2e679b42c740bb2e4",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/about.js",
+      "relativePath": "pages/about.js",
+      "extension": "js",
+      "size": 437,
+      "prettySize": "437 B",
+      "modifiedTime": "2019-02-05T02:28:49.004Z",
+      "accessTime": "2019-03-18T21:10:55.972Z",
+      "changeTime": "2019-03-18T21:04:37.878Z",
+      "birthTime": "2019-02-05T02:18:54.930Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289080,
+      "blocks": 8,
+      "atimeMs": 1552943455972.3936,
+      "mtimeMs": 1549333729003.7217,
+      "ctimeMs": 1552943077877.5095,
+      "birthtimeMs": 1549333134929.8386,
+      "atime": "2019-03-18T21:10:55.972Z",
+      "mtime": "2019-02-05T02:28:49.004Z",
+      "ctime": "2019-03-18T21:04:37.878Z",
+      "birthtime": "2019-02-05T02:18:54.930Z"
+    },
+    "f128127a-c258-527d-9075-238d8e27d677": {
+      "id": "f128127a-c258-527d-9075-238d8e27d677",
+      "children": [
+        "c4986e85-e507-533f-be7a-a5ccfe0da7c2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b89ac1069a7339feb4bb6943418c10c0",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/the-cursed-runner.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/the-cursed-runner.md",
+      "relativePath": "pages/the-cursed-runner.md",
+      "extension": "md",
+      "size": 402,
+      "prettySize": "402 B",
+      "modifiedTime": "2019-03-13T21:34:31.737Z",
+      "accessTime": "2019-03-18T21:10:55.972Z",
+      "changeTime": "2019-03-18T21:04:37.903Z",
+      "birthTime": "2019-02-05T02:49:43.876Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages",
+      "base": "the-cursed-runner.md",
+      "ext": ".md",
+      "name": "the-cursed-runner",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289086,
+      "blocks": 8,
+      "atimeMs": 1552943455972.4175,
+      "mtimeMs": 1552512871736.9417,
+      "ctimeMs": 1552943077902.6199,
+      "birthtimeMs": 1549334983875.7568,
+      "atime": "2019-03-18T21:10:55.972Z",
+      "mtime": "2019-03-13T21:34:31.737Z",
+      "ctime": "2019-03-18T21:04:37.903Z",
+      "birthtime": "2019-02-05T02:49:43.876Z"
+    },
+    "8bdc888f-2cc6-53b2-9872-914009f0006c": {
+      "id": "8bdc888f-2cc6-53b2-9872-914009f0006c",
+      "children": [
+        "218e2009-99d9-50ad-bcd8-7c42f74a2e10"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "90d21c28040bc5fc2e6c82b3fb94cb91",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/juando.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/juando.md",
+      "relativePath": "pages/juando.md",
+      "extension": "md",
+      "size": 391,
+      "prettySize": "391 B",
+      "modifiedTime": "2019-03-13T21:34:24.833Z",
+      "accessTime": "2019-03-18T21:10:55.972Z",
+      "changeTime": "2019-03-18T21:04:37.903Z",
+      "birthTime": "2019-03-12T21:54:06.037Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages",
+      "base": "juando.md",
+      "ext": ".md",
+      "name": "juando",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289087,
+      "blocks": 8,
+      "atimeMs": 1552943455972.405,
+      "mtimeMs": 1552512864833.2776,
+      "ctimeMs": 1552943077903.011,
+      "birthtimeMs": 1552427646036.8123,
+      "atime": "2019-03-18T21:10:55.972Z",
+      "mtime": "2019-03-13T21:34:24.833Z",
+      "ctime": "2019-03-18T21:04:37.903Z",
+      "birthtime": "2019-03-12T21:54:06.037Z"
+    },
+    "8e85ed63-0404-558e-bf58-70ac38b2a506": {
+      "id": "8e85ed63-0404-558e-bf58-70ac38b2a506",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3f052d732a3b4e66a9fc5cd97f7215dc",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/templates/blog-post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js",
+      "relativePath": "templates/blog-post.js",
+      "extension": "js",
+      "size": 803,
+      "prettySize": "803 B",
+      "modifiedTime": "2019-03-13T21:13:06.038Z",
+      "accessTime": "2019-03-18T21:10:55.972Z",
+      "changeTime": "2019-03-18T21:04:37.876Z",
+      "birthTime": "2019-02-05T14:47:33.033Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates",
+      "base": "blog-post.js",
+      "ext": ".js",
+      "name": "blog-post",
+      "relativeDirectory": "templates",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289078,
+      "blocks": 8,
+      "atimeMs": 1552943455972.4248,
+      "mtimeMs": 1552511586038.0847,
+      "ctimeMs": 1552943077875.8057,
+      "birthtimeMs": 1549378053032.5205,
+      "atime": "2019-03-18T21:10:55.972Z",
+      "mtime": "2019-03-13T21:13:06.038Z",
+      "ctime": "2019-03-18T21:04:37.876Z",
+      "birthtime": "2019-02-05T14:47:33.033Z"
+    },
+    "4401ba58-6934-558a-91ba-b50e9fa96c6c": {
+      "id": "4401ba58-6934-558a-91ba-b50e9fa96c6c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9c351c10a4ff1e5d47a6ff1b9e6c9634",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/my-files.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/my-files.js",
+      "relativePath": "pages/my-files.js",
+      "extension": "js",
+      "size": 1044,
+      "prettySize": "1.04 kB",
+      "modifiedTime": "2019-02-05T02:44:49.404Z",
+      "accessTime": "2019-03-18T21:10:55.972Z",
+      "changeTime": "2019-03-18T21:04:37.902Z",
+      "birthTime": "2019-02-05T02:42:38.888Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages",
+      "base": "my-files.js",
+      "ext": ".js",
+      "name": "my-files",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289084,
+      "blocks": 8,
+      "atimeMs": 1552943455972.414,
+      "mtimeMs": 1549334689404.2979,
+      "ctimeMs": 1552943077901.7322,
+      "birthtimeMs": 1549334558887.9834,
+      "atime": "2019-03-18T21:10:55.972Z",
+      "mtime": "2019-02-05T02:44:49.404Z",
+      "ctime": "2019-03-18T21:04:37.902Z",
+      "birthtime": "2019-02-05T02:42:38.888Z"
+    },
+    "f3054956-ac28-575b-a7a0-12ab0512390b": {
+      "id": "f3054956-ac28-575b-a7a0-12ab0512390b",
+      "children": [],
+      "parent": "0e3f549a-e5bd-560c-8a96-00b2c9205e9c",
+      "internal": {
+        "content": "\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<div style=\"position: relative; width: 100%; height: 0; padding-bottom: 51%; max-height: 10vh;\">\n<iframe  style = \"position: absolute; width: 100%;  height: 100%;\n  left: 0; top: 0;\"src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "61bf783aa17381192dd89947832c20ba",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Bryson Bohler Wedding",
+        "date": "2018-05-04"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<div style=\"position: relative; width: 100%; height: 0; padding-bottom: 51%; max-height: 10vh;\">\n<iframe  style = \"position: absolute; width: 100%;  height: 100%;\n  left: 0; top: 0;\"src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n",
+      "fileAbsolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/bryson-bohler-wedding.md",
+      "fields": {
+        "slug": "/bryson-bohler-wedding/"
+      }
+    },
+    "cf31ade5-2112-5ebe-8a86-0202011a3d3b": {
+      "id": "cf31ade5-2112-5ebe-8a86-0202011a3d3b",
+      "children": [],
+      "parent": "3a05670a-b3b5-5bf6-b4df-a99a474adf6f",
+      "internal": {
+        "content": "\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<div style=\"position: relative; width: 100%; height: 0; padding-bottom: 51%; max-height: 10vh;\">\n<iframe  style = \"position: absolute; width: 100%;  height: 100%;\n  left: 0; top: 0;\"src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a89f0a1b9d5c58b7c863a512b5be6101",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Malik for Akron",
+        "date": "2019-02-21"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<div style=\"position: relative; width: 100%; height: 0; padding-bottom: 51%; max-height: 10vh;\">\n<iframe  style = \"position: absolute; width: 100%;  height: 100%;\n  left: 0; top: 0;\"src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n",
+      "fileAbsolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/malik-for-akron.md",
+      "fields": {
+        "slug": "/malik-for-akron/"
+      }
+    },
+    "c4986e85-e507-533f-be7a-a5ccfe0da7c2": {
+      "id": "c4986e85-e507-533f-be7a-a5ccfe0da7c2",
+      "children": [],
+      "parent": "f128127a-c258-527d-9075-238d8e27d677",
+      "internal": {
+        "content": "\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<div style=\"position: relative; width: 100%; height: 0; padding-bottom: 51%; max-height: 10vh;\">\n<iframe  style = \"position: absolute; width: 100%;  height: 100%;\n  left: 0; top: 0;\"src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "e525300722d0dc5822dbe9acc8d9cf75",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The Cursed Runner",
+        "date": "2018-12-28"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<div style=\"position: relative; width: 100%; height: 0; padding-bottom: 51%; max-height: 10vh;\">\n<iframe  style = \"position: absolute; width: 100%;  height: 100%;\n  left: 0; top: 0;\"src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n",
+      "fileAbsolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/the-cursed-runner.md",
+      "fields": {
+        "slug": "/the-cursed-runner/"
+      }
+    },
+    "218e2009-99d9-50ad-bcd8-7c42f74a2e10": {
+      "id": "218e2009-99d9-50ad-bcd8-7c42f74a2e10",
+      "children": [],
+      "parent": "8bdc888f-2cc6-53b2-9872-914009f0006c",
+      "internal": {
+        "content": "\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<div style=\"position: relative; width: 100%; height: 0; padding-bottom: 51%; max-height: 10vh;\">\n<iframe  style = \"position: absolute; width: 100%;  height: 100%;\n  left: 0; top: 0;\"src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "e4d4e1ac2aa62d830fa5fef1d73051be",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Juando",
+        "date": "2018-09-10"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<div style=\"position: relative; width: 100%; height: 0; padding-bottom: 51%; max-height: 10vh;\">\n<iframe  style = \"position: absolute; width: 100%;  height: 100%;\n  left: 0; top: 0;\"src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n",
+      "fileAbsolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/juando.md",
+      "fields": {
+        "slug": "/juando/"
+      }
+    },
+    "4bb361ae-200d-5dd7-9207-25d0b212dfda": {
+      "id": "4bb361ae-200d-5dd7-9207-25d0b212dfda",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3138e3ea07345af9f49b18aa0b196e1c",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/img/logo_main.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/img/logo_main.svg",
+      "relativePath": "img/logo_main.svg",
+      "extension": "svg",
+      "size": 7232,
+      "prettySize": "7.23 kB",
+      "modifiedTime": "2019-03-12T22:15:21.441Z",
+      "accessTime": "2019-03-18T21:10:55.972Z",
+      "changeTime": "2019-03-18T21:04:37.869Z",
+      "birthTime": "2019-03-12T22:15:21.408Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/img",
+      "base": "logo_main.svg",
+      "ext": ".svg",
+      "name": "logo_main",
+      "relativeDirectory": "img",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289070,
+      "blocks": 16,
+      "atimeMs": 1552943455972.3801,
+      "mtimeMs": 1552428921441.029,
+      "ctimeMs": 1552943077868.793,
+      "birthtimeMs": 1552428921408.1855,
+      "atime": "2019-03-18T21:10:55.972Z",
+      "mtime": "2019-03-12T22:15:21.441Z",
+      "ctime": "2019-03-18T21:04:37.869Z",
+      "birthtime": "2019-03-12T22:15:21.408Z"
+    },
+    "329783bf-89e0-5bd2-acc3-6daa04c37714": {
+      "id": "329783bf-89e0-5bd2-acc3-6daa04c37714",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4af740402acf168c61480c379eed660d",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/utils/typography.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/utils/typography.js",
+      "relativePath": "utils/typography.js",
+      "extension": "js",
+      "size": 204,
+      "prettySize": "204 B",
+      "modifiedTime": "2019-03-18T19:52:11.313Z",
+      "accessTime": "2019-03-18T21:27:07.576Z",
+      "changeTime": "2019-03-18T21:04:37.867Z",
+      "birthTime": "2019-02-05T02:19:34.610Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/utils",
+      "base": "typography.js",
+      "ext": ".js",
+      "name": "typography",
+      "relativeDirectory": "utils",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289067,
+      "blocks": 8,
+      "atimeMs": 1552944427576.4478,
+      "mtimeMs": 1552938731312.5676,
+      "ctimeMs": 1552943077866.5642,
+      "birthtimeMs": 1549333174609.7437,
+      "atime": "2019-03-18T21:27:07.576Z",
+      "mtime": "2019-03-18T19:52:11.313Z",
+      "ctime": "2019-03-18T21:04:37.867Z",
+      "birthtime": "2019-02-05T02:19:34.610Z"
+    },
+    "5639c3a2-cc1b-5ad8-b937-2432f91cf086": {
+      "id": "5639c3a2-cc1b-5ad8-b937-2432f91cf086",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9e1cfccfd9c697449e713b3c315f403f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/img/social_square3x-02.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/img/social_square3x-02.png",
+      "relativePath": "img/social_square3x-02.png",
+      "extension": "png",
+      "size": 20096,
+      "prettySize": "20.1 kB",
+      "modifiedTime": "2019-03-12T19:37:45.474Z",
+      "accessTime": "2019-03-18T21:10:55.972Z",
+      "changeTime": "2019-03-18T21:04:37.868Z",
+      "birthTime": "2019-03-12T19:35:48.729Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/img",
+      "base": "social_square3x-02.png",
+      "ext": ".png",
+      "name": "social_square3x-02",
+      "relativeDirectory": "img",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890289069,
+      "blocks": 40,
+      "atimeMs": 1552943455972.3843,
+      "mtimeMs": 1552419465473.5942,
+      "ctimeMs": 1552943077868.026,
+      "birthtimeMs": 1552419348729.1675,
+      "atime": "2019-03-18T21:10:55.972Z",
+      "mtime": "2019-03-12T19:37:45.474Z",
+      "ctime": "2019-03-18T21:04:37.868Z",
+      "birthtime": "2019-03-12T19:35:48.729Z"
+    },
+    "65e03671-966f-5fdd-aaef-0ba7b3328d1c": {
+      "id": "65e03671-966f-5fdd-aaef-0ba7b3328d1c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3570671149f4822669faf68fe371ec4c",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/sidenav.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components/sidenav.js",
+      "relativePath": "components/sidenav.js",
+      "extension": "js",
+      "size": 273,
+      "prettySize": "273 B",
+      "modifiedTime": "2019-03-18T22:33:56.484Z",
+      "accessTime": "2019-03-18T22:33:57.051Z",
+      "changeTime": "2019-03-18T22:33:56.484Z",
+      "birthTime": "2019-03-18T21:47:34.278Z",
+      "root": "/",
+      "dir": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/components",
+      "base": "sidenav.js",
+      "ext": ".js",
+      "name": "sidenav",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12890375627,
+      "blocks": 8,
+      "atimeMs": 1552948437050.7861,
+      "mtimeMs": 1552948436484.2605,
+      "ctimeMs": 1552948436484.2605,
+      "birthtimeMs": 1552945654277.5254,
+      "atime": "2019-03-18T22:33:57.051Z",
+      "mtime": "2019-03-18T22:33:56.484Z",
+      "ctime": "2019-03-18T22:33:56.484Z",
+      "birthtime": "2019-03-18T21:47:34.278Z"
+    },
+    "SitePage /bryson-bohler-wedding/": {
+      "jsonName": "bryson-bohler-wedding-5ba",
+      "internalComponentName": "ComponentBrysonBohlerWedding",
+      "path": "/bryson-bohler-wedding/",
+      "component": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/bryson-bohler-wedding/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js",
+      "id": "SitePage /bryson-bohler-wedding/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3395d4def72015a1d90774e7a9c8353f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /malik-for-akron/": {
+      "jsonName": "malik-for-akron-af5",
+      "internalComponentName": "ComponentMalikForAkron",
+      "path": "/malik-for-akron/",
+      "component": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/malik-for-akron/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js",
+      "id": "SitePage /malik-for-akron/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "855403ac7e115e98c6c3b300adc64fbe",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /the-cursed-runner/": {
+      "jsonName": "the-cursed-runner-4c3",
+      "internalComponentName": "ComponentTheCursedRunner",
+      "path": "/the-cursed-runner/",
+      "component": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/the-cursed-runner/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js",
+      "id": "SitePage /the-cursed-runner/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a61a746e8018ceddf1729d91f69e47e0",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /juando/": {
+      "jsonName": "juando-07b",
+      "internalComponentName": "ComponentJuando",
+      "path": "/juando/",
+      "component": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/juando/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js",
+      "id": "SitePage /juando/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "038828739431c9eb571177b0617646eb",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+      "pluginCreatorId": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "05b70e06b195e94ca118405d60d98317",
+        "description": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+      "pluginCreatorId": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e189ba1242f373fd90195ea82c42b1be",
+        "description": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+      "pluginCreatorId": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "391ac3411050b466772b402061635946",
+        "description": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /my-files/": {
+      "jsonName": "my-files-317",
+      "internalComponentName": "ComponentMyFiles",
+      "path": "/my-files/",
+      "component": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/my-files.js",
+      "componentChunkName": "component---src-pages-my-files-js",
+      "context": {},
+      "pluginCreator___NODE": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+      "pluginCreatorId": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/my-files.js",
+      "id": "SitePage /my-files/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e1fe75a9d2afc3ebc1e8cea79e6aec56",
+        "description": "538ffeee-8531-50b7-b5b6-90f57d93a534",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9e44001565c85c462b61939b64a828aa",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "9ff4ccea970b8ab3145e1ac6c56363b6"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/about/"
+      ],
+      "f3054956-ac28-575b-a7a0-12ab0512390b": [
+        "/bryson-bohler-wedding/"
+      ],
+      "cf31ade5-2112-5ebe-8a86-0202011a3d3b": [
+        "/malik-for-akron/"
+      ],
+      "c4986e85-e507-533f-be7a-a5ccfe0da7c2": [
+        "/the-cursed-runner/"
+      ],
+      "218e2009-99d9-50ad-bcd8-7c42f74a2e10": [
+        "/juando/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        "/",
+        null
+      ],
+      "File": [
+        "/my-files/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "my-files-317": "246/path---my-files-317-4c7-ONiBcAXw24uIiM6RzrRbT1dUex0",
+    "index": "801/path---index-6a9-MOxFwxEeCa1RsXO0YJ2Wvl6gHM8",
+    "about-f34": "395/path---about-f-34-4c2-fnGJLnFTyL479qNPHyrkKrHAA",
+    "sq--src-components-layout-js": 3892401927,
+    "bryson-bohler-wedding-5ba": "267/path---bryson-bohler-wedding-5-ba-057-3NEzRLh9qkdnL1Qv7DBCEc5o",
+    "malik-for-akron-af5": "835/path---malik-for-akron-af-5-cee-abheTfcyEUlpVFgoSLC0mPiNjkw",
+    "the-cursed-runner-4c3": "556/path---the-cursed-runner-4-c-3-2a4-tVB5Aa050qwevF7Zniz7zdWnaE",
+    "juando-07b": "262/path---juando-07-b-e1d-jQxBa3qXF7TwtQbbwtuhssSpWQs",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js": {
+      "query": "query usersEgonbohlerDocumentsGitHubEponymdesigncoGithubIoSrcTemplatesBlogPostJs861893041(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/templates/blog-post.js"
+    },
+    "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/.cache/dev-404-page.js"
+    },
+    "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/404.js"
+    },
+    "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/about.js": {
+      "query": "query usersEgonbohlerDocumentsGitHubEponymdesigncoGithubIoSrcPagesAboutJs1548466092 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/about.js"
+    },
+    "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/index.js": {
+      "query": "query usersEgonbohlerDocumentsGitHubEponymdesigncoGithubIoSrcPagesIndexJs2068765159 {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    totalCount\n    edges {\n      node {\n        id\n        frontmatter {\n          title\n          date(formatString: \"DD MMMM, YYYY\")\n        }\n        fields {\n          slug\n        }\n        excerpt\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/index.js"
+    },
+    "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/my-files.js": {
+      "query": "query usersEgonbohlerDocumentsGitHubEponymdesigncoGithubIoSrcPagesMyFilesJs3953592347 {\n  allFile {\n    edges {\n      node {\n        relativePath\n        prettySize\n        extension\n        birthTime(fromNow: true)\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/my-files.js"
+    }
+  },
+  "staticQueryComponents": {}
+}

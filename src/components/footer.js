@@ -7,6 +7,8 @@ export default () => (
     background-color: #000000;
     grid-area: c;
     margin-top: ${rhythm(1)};
+    height: ${rhythm(4)};
+    width: 100%;
   `}>
   </div>
 )
