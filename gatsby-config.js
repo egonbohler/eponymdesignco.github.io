@@ -1,8 +1,30 @@
 module.exports = {
   siteMetadata: {
-    title: `Eponym Design Co.`,
+    title: 'Eponym Design Co.',
+    description: 'A Cleveland, OH based creative studio.',
+    contact: {
+      phone: 'XXX XXX XXX',
+      email: 'hello@eponym.design',
+    },
+    menuLinks: [
+      {
+        name: 'Work',
+        link: '/',
+      },
+      {
+        name: 'Our Studio',
+        link: '/studio',
+      },
+      {
+        name: 'Contact',
+        link: '/contact',
+      },
+    ],
   },
   plugins: [
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-emotion`,
+    'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -10,8 +32,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-emotion`,
+
     {
       resolve: `gatsby-plugin-typography`,
       options: {

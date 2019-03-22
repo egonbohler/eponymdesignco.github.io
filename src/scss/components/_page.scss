@@ -1,0 +1,10 @@
+.page {
+  display: grid;
+  min-height: 100%;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+
+  .wrapper {
+    flex: 1;
+  }
+}
