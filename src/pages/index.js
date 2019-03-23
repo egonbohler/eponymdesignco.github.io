@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 
 
@@ -10,11 +9,11 @@ export default ({ data }) => {
   return (
     <Layout>
       <div css={css`
-        padding-left: ${rhythm(1)};
+        padding-left: 1em;
         `}>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id} css={css`
-            margin-bottom: ${rhythm(3)};
+            margin-bottom: 3em;
           `}>
             <Link
               to={node.fields.slug}
@@ -26,7 +25,7 @@ export default ({ data }) => {
             >
               <h3
                 css={css`
-                  margin-bottom: ${rhythm(0.25)};
+                  margin-bottom: 0.25em;
                   color: #000000;
                 `}
               >

@@ -1,5 +1,5 @@
 // Font
-@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Open+Sans');
 
 // Bootstrap
 @import 'bootstrap/functions';
@@ -25,14 +25,6 @@
 @import 'components/content';
 @import 'components/intro';
 @import 'components/strip';
-
-// Pages
-@import 'pages/home';
-@import 'pages/team/page-teams';
-@import 'pages/testimonials/page-testimonials';
-@import 'pages/testimonials/testimonial';
-@import 'pages/services/page-services';
-@import 'pages/services/page-service';
 
 // Display breakpoints for DEV
 // body:after {

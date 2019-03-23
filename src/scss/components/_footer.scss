@@ -1,7 +1,7 @@
 .footer-strip {
   background: $black;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  grid-area: c;
+  padding: 20px 1em;
 }
 .footer {
   display: flex;
@@ -44,8 +44,8 @@
         }
       }
       &.copyright {
-        font-weight: bold;
-        color: #ffffff;
+        font-weight: $font-weight-light;
+        color: rgba(255, 255, 255, 0.5);
       }
     }
     @include media-breakpoint-up(sm) {

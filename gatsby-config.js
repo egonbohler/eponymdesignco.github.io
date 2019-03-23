@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Eponym Design Co.',
-    description: 'A Cleveland, OH based creative studio.',
+    description: 'A Cleveland, Ohio based creative studio.',
     contact: {
       phone: 'XXX XXX XXX',
       email: 'hello@eponym.design',

@@ -15,14 +15,14 @@
         "path": "/404/"
     },
     {
-        "componentChunkName": "component---src-pages-about-js",
-        "jsonName": "about-f34",
-        "path": "/about/"
-    },
-    {
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "bryson-bohler-wedding-5ba",
         "path": "/bryson-bohler-wedding/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-js",
+        "jsonName": "contact-26a",
+        "path": "/contact/"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
@@ -38,11 +38,6 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "malik-for-akron-af5",
         "path": "/malik-for-akron/"
-    },
-    {
-        "componentChunkName": "component---src-pages-my-files-js",
-        "jsonName": "my-files-317",
-        "path": "/my-files/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",

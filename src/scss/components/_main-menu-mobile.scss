@@ -56,12 +56,17 @@ $button-width: 35px;
   }
 }
 
+
+
 .main-menu-mobile {
   position: fixed;
   background: $color-main;
   top: 0;
   right: 0;
-  width: 40%;
+  width: 50%;
+  @media (max-width: 767px) {
+    width: 90%;
+  }
   height: 100vh;
   opacity: 0;
   visibility: hidden;
@@ -72,7 +77,7 @@ $button-width: 35px;
   align-items: center;
   flex-direction: column;
   &.open {
-    opacity: 0.9;
+    opacity: 1;
     visibility: visible;
     height: 100%;
     z-index: 10;
@@ -97,9 +102,10 @@ $button-width: 35px;
     }
   }
   ul {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: $font-family-heading;
-    text-align: center;
+    font-weight: $font-weight-bold;
+    text-align: left;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -136,11 +142,33 @@ $button-width: 35px;
   }
 }
 
+.overlay {
+  position: fixed;
+  background: $white;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  &.open {
+    opacity: 0.8;
+    visibility: visible;
+    height: 100%;
+    z-index: 1;
+    }
+  }
+
 @keyframes fadeInRight {
   0% {
     opacity: 0;
     left: 20%;
   }
+
   100% {
     opacity: 1;
     left: 0;

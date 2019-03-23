@@ -4,17 +4,20 @@ import { graphql, StaticQuery, Link } from 'gatsby';
 const MenuMobile = props => {
   const { menuLinks } = props.data.site.siteMetadata;
   return (
-    <div
-      id="main-menu-mobile"
-      className={`main-menu-mobile ${props.active ? 'open' : ''}`}
-    >
-      <ul>
-        {menuLinks.map(link => (
-          <li key={link.name}>
-            <Link to={link.link}>{link.name}</Link>
-          </li>
-        ))}
-      </ul>
+    <div>
+      <div
+        id="main-menu-mobile"
+        className={`main-menu-mobile ${props.active ? 'open' : ''}`}
+      >
+        <ul>
+          {menuLinks.map(link => (
+            <li key={link.name}>
+              <Link to={link.link}>{link.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div id="overlay" className={`overlay ${props.active ? 'open' : ''}`}></div>
     </div>
   );
 };

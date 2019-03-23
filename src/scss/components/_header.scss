@@ -1,20 +1,10 @@
 .header {
-  height: 6vh;
-  width: 100vh;
   margin-left: 0;
   color: $black;
-  background-color: #ffffff;
+  background-color: transparent;
   margin-bottom: 3em;
   .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .header-social {
-    height: inherit;
-    display: none;
-    @include media-breakpoint-up(lg) {
-      display: block;
-    }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
