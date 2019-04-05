@@ -9,18 +9,29 @@ class Header extends React.Component {
     super(props);
     this.state = {
       menuActive: false,
+      isTop: true,
     };
   }
 
-  toggleMenu = menuActive => {
+  toggleMenu = () => {
     this.setState(prevState => ({
       menuActive: !prevState.menuActive,
     }));
   };
 
+  componentDidMount() {
+    document.addEventListener('scroll', () => {
+      const isTop = window.scrollY < 10;
+      if (isTop !== this.state.isTop) {
+          this.setState({ isTop })
+      }
+    });
+  }
+
+
   render() {
     return (
-      <div className="header">
+      <div id="nav" className={`header sticky ${this.state.isTop ? '' : 'nav-fill'}`}>
           <div className="container">
             <div className="logo">
               <Link to={`/`}>

@@ -2,12 +2,14 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import Layout from "../components/layout"
+import HeroSection from "../components/hero_section.js"
 
 
 export default ({ data }) => {
 
   return (
     <Layout>
+      <HeroSection />
       <div css={css`
         padding-left: 1em;
         `}>

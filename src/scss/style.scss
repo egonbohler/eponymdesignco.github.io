@@ -15,6 +15,7 @@
 // Components
 @import 'components/page';
 @import 'components/header';
+@import 'components/header-sticky';
 @import 'components/footer';
 @import 'components/logo';
 @import 'components/main-menu-mobile';
@@ -25,6 +26,10 @@
 @import 'components/content';
 @import 'components/intro';
 @import 'components/strip';
+
+// Custom
+
+@import '_hero-section'
 
 // Display breakpoints for DEV
 // body:after {
