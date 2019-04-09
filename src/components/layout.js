@@ -8,7 +8,7 @@ const Layout = props => {
     <React.Fragment>
       <div className={`page${props.bodyClass ? ` ${props.bodyClass}` : ''}`}>
         <div id="wrapper" className="wrapper">
-          <Header />
+          <Header currentPath={props.currentPath}/>
           {props.children}
         </div>
         <Footer />

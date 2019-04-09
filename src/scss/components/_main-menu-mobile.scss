@@ -1,6 +1,6 @@
 $color-main: $primary;
-$color-active: #fff;
-$color-link: #fff;
+$color-active: $white;
+$color-link: $white;
 
 $button-height: 27px;
 $button-width: 35px;
@@ -167,11 +167,13 @@ $button-width: 35px;
   0% {
     opacity: 0;
     left: 20%;
+    top: -20%;
   }
 
   100% {
     opacity: 1;
     left: 0;
+    top: 0;
   }
 }
 

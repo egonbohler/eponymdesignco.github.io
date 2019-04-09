@@ -27,7 +27,7 @@ class MenuButton extends React.Component {
         onClick={this.handleToggle}
       >
         <span className="hamburger-box">
-          <span className="hamburger-inner" />
+          <span className={`${this.props.currentPath === '/' ?  'hamburger-inner-inverted' : 'hamburger-inner'}`}/>
         </span>
       </button>
     )

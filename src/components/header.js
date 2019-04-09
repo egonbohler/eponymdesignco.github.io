@@ -35,11 +35,11 @@ class Header extends React.Component {
           <div className="container">
             <div className="logo">
               <Link to={`/`}>
-                <img alt="logo" src={logo}/>
+                <img alt="logo" src={logo} className={`${this.props.currentPath === '/' ?  'logo-inverted' : ''}`} />
               </Link>
             </div>
             <MenuMobile active={this.state.menuActive} />
-            <MenuButton className="hamburger" toggleMenu={this.toggleMenu}/>
+            <MenuButton className= "hamburger" toggleMenu={this.toggleMenu} currentPath={props.currentPath} />
           </div>
         </div>
 

@@ -5,14 +5,22 @@
   z-index: 1000;
   color: $black;
   background-color: transparent;
-  transition: padding 225ms, box-shadow 225ms, background-color 0.3s;
+  transition: background-color 0.3s;
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .nav-fill {
-    background-color: $white;
+  .nav-scrolled {
+    background-color: transparent;
+    .logo img {
+      filter: invert(0);
+      transition: all 0.3s;
+    }
+  }
+
+  .logo-inverted {
+    filter: invert(1);
   }
 
   .hamburger {
@@ -22,4 +30,13 @@
       background: $white;
     }
   }
+
+  .hamburger {
+    .hamburger-inner-inverted,
+    .hamburger-inner-inverted::before,
+    .hamburger-inner-inverted::after {
+      background: #000000;
+    }
+  }
+
 }

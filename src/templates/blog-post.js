@@ -10,7 +10,7 @@ export default ({ data }) => {
     <Layout>
       <div css={css`
         margin: 0 1em;
-        margin-top: 15vh;
+        margin-top: 15vh ;
         margin-bottom: 3em;
         `}>
         <h1>{post.frontmatter.title}</h1>

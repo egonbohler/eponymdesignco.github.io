@@ -8,7 +8,7 @@ import HeroSection from "../components/hero_section.js"
 export default ({ data }) => {
 
   return (
-    <Layout>
+    <Layout currentPath='/'>
       <HeroSection />
       <div css={css`
         padding-left: 1em;

@@ -8,11 +8,11 @@
   &:focus {
     outline: none;
   }
-  .hamburger-inner,
-  .hamburger-inner::before,
-  .hamburger-inner::after {
-    background: $black;
-  }
+  // .hamburger-inner,
+  // .hamburger-inner::before,
+  // .hamburger-inner::after {
+  //   background: $black;
+  // }
   .hamburger-inner::after {
     width: 18px;
     right: 0;
