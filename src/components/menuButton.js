@@ -17,6 +17,7 @@ class MenuButton extends React.Component {
   };
 
   render() {
+    console.log('this.props', this.props);
     return (
       <button
         id="toggle-main-menu-mobile"
@@ -27,7 +28,7 @@ class MenuButton extends React.Component {
         onClick={this.handleToggle}
       >
         <span className="hamburger-box">
-          <span className={`${this.props.currentPath === '/' ?  'hamburger-inner-inverted' : 'hamburger-inner'}`}/>
+          <span className={`${this.props.currentPath === "/" ? 'hamburger-inner-inverted' : 'hamburger-inner'}`}/>
         </span>
       </button>
     )

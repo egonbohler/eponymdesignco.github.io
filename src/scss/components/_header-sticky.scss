@@ -3,7 +3,7 @@
   width: 100%;
   top: 0;
   z-index: 1000;
-  color: $black;
+  color: #000000;
   background-color: transparent;
   transition: background-color 0.3s;
   .container {
@@ -22,21 +22,25 @@
   .logo-inverted {
     filter: invert(1);
   }
-
+  
   .hamburger {
-    .hamburger-inner,
-    .hamburger-inner::before,
-    .hamburger-inner::after {
+    .hamburger-inner-inverted,
+    .hamburger-inner-inverted::before,
+    .hamburger-inner-inverted::after
+    {
       background: $white;
     }
   }
 
   .hamburger {
-    .hamburger-inner-inverted,
-    .hamburger-inner-inverted::before,
-    .hamburger-inner-inverted::after {
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after
+    {
       background: #000000;
     }
   }
+
+
 
 }

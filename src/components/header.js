@@ -39,7 +39,7 @@ class Header extends React.Component {
               </Link>
             </div>
             <MenuMobile active={this.state.menuActive} />
-            <MenuButton className= "hamburger" toggleMenu={this.toggleMenu} currentPath={props.currentPath} />
+            <MenuButton className= "hamburger" toggleMenu={this.toggleMenu} currentPath={this.props.currentPath} />
           </div>
         </div>
 
