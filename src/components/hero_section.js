@@ -9,6 +9,8 @@ const TITLES = [
 ];
 
 class HeroSection extends Component {
+  textInterval = 0;
+  animationInterval = 0;
   state = {
     titleIndex: 0,
   };
@@ -18,11 +20,11 @@ class HeroSection extends Component {
   }
 
   animateTitles = () => {
-    setInterval(() => {
+    this.textInterval = setInterval(() => {
       const titleIndex = (this.state.titleIndex + 1) % TITLES.length;
       this.setState({ titleIndex });
     }, 8000);
-    setInterval(()=>{
+    this.animationInterval = setInterval(()=>{
       let classList = document.getElementById('title').classList;
       if(classList.contains('is-visible')) {
         classList.replace('is-visible', 'is-hidden');
@@ -32,6 +34,10 @@ class HeroSection extends Component {
     }, 4000)
   }
 
+  componentWillUnmount(){
+    clearInterval(this.textInterval);
+    clearInterval(this.animationInterval);
+  }
 
   render() {
     const title = TITLES[this.state.titleIndex];

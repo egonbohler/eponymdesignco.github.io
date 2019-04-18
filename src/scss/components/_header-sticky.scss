@@ -8,21 +8,14 @@
   transition: background-color 0.3s;
   .container {
     display: grid;
+    height: 7em;
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .nav-scrolled {
-    background-color: transparent;
-    .logo img {
-      filter: invert(0);
-      transition: all 0.3s;
-    }
   }
 
   .logo-inverted {
     filter: invert(1);
   }
-  
+
   .hamburger {
     .hamburger-inner-inverted,
     .hamburger-inner-inverted::before,
@@ -37,7 +30,25 @@
     .hamburger-inner::before,
     .hamburger-inner::after
     {
-      background: #000000;
+      background: $black;
+    }
+  }
+
+  .nav-top {
+    background-color: transparent;
+    transition: all 0.8s;
+    .logo img {
+      filter: invert(1);
+      transition: all 0.8s;
+    }
+  }
+
+  .nav-scrolled {
+    background-color: $white;
+    transition: all 0.8s;
+    .logo img {
+      filter: invert(0);
+      transition: all 0.8s;
     }
   }
 

@@ -20,19 +20,20 @@ class Header extends React.Component {
   };
 
   componentDidMount() {
-    document.addEventListener('scroll', () => {
-      const isTop = window.scrollY < 10;
-      if (isTop !== this.state.isTop) {
-          this.setState({ isTop })
+    window.addEventListener('scroll', () => {
+      let scrollAtTop = window.scrollY < 100;
+      if (scrollAtTop !== this.state.isTop) {
+          this.setState({ isTop: scrollAtTop }) // this doesn't do anything if it's just 'isTop'. There may be a namespace issue, or otherwise you're just setting a state of true to true again.
       }
     });
   }
 
 
   render() {
+    console.log('this.props from header component', this.props);
     return (
-      <div id="nav" className={`header sticky ${this.state.isTop ? '' : 'nav-fill'}`}>
-          <div className="container">
+      <div id="nav" className="header sticky">
+          <div className={`container ${this.state.isTop ? 'nav-top' : 'nav-scrolled'}`}>
             <div className="logo">
               <Link to={`/`}>
                 <img alt="logo" src={logo} className={`${this.props.currentPath === '/' ?  'logo-inverted' : ''}`} />
@@ -45,4 +46,9 @@ class Header extends React.Component {
 
 )
 }}
+
+function mapStateToProps(state){
+  const { isTop } = state;
+  return { isTop };
+}
 export default Header;
