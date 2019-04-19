@@ -13,6 +13,8 @@ export default ({ data }) => {
       <div css={css`
         padding-left: 1em;
         `}>
+        <h3 style={{ textAlign: 'center'}}>Client Work</h3>
+        <hr  style={{margin: '1em auto 3em auto', width: '4em', height: '0.15em', backgroundColor: '#000000', borderRadius: '2px'}}/>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id} css={css`
             margin-bottom: 3em;

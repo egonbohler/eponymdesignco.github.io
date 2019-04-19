@@ -15,11 +15,24 @@ export default ({ data }) => {
         margin-bottom: 3em;
         `}>
         <h1>{post.frontmatter.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="project-image-group">
         <Img
           fluid={post.frontmatter.image.childImageSharp.fluid}
           alt={post.frontmatter.title}
+          className="project-image-main"
         />
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Img
+          fluid={post.frontmatter.image.childImageSharp.fluid}
+          alt={post.frontmatter.title}
+          className="project-image-secondary"
+        />
+        <Img
+          fluid={post.frontmatter.image.childImageSharp.fluid}
+          alt={post.frontmatter.title}
+          className="project-image-tertiary"
+        />
+        </div>
       </div>
     </Layout>
   )
