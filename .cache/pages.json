@@ -15,11 +15,6 @@
         "path": "/404/"
     },
     {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "bryson-bohler-wedding-5ba",
-        "path": "/bryson-bohler-wedding/"
-    },
-    {
         "componentChunkName": "component---src-pages-contact-js",
         "jsonName": "contact-26a",
         "path": "/contact/"
@@ -31,17 +26,22 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "juando-07b",
-        "path": "/juando/"
+        "jsonName": "projects-bryson-bohler-wedding-bryson-bohler-wedding-d81",
+        "path": "/projects/bryson-bohler-wedding/bryson-bohler-wedding/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "malik-for-akron-af5",
-        "path": "/malik-for-akron/"
+        "jsonName": "projects-juando-juando-e19",
+        "path": "/projects/juando/juando/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "the-cursed-runner-4c3",
-        "path": "/the-cursed-runner/"
+        "jsonName": "projects-malik-for-akron-malik-for-akron-88a",
+        "path": "/projects/malik-for-akron/malik-for-akron/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "projects-the-cursed-runner-the-cursed-runner-b06",
+        "path": "/projects/the-cursed-runner/the-cursed-runner/"
     }
 ]
