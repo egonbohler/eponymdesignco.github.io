@@ -1,0 +1,11 @@
+.header {
+  margin-left: 0;
+  z-index: 1;
+  color: $black;
+  background-color: transparent;
+  // margin-bottom: 3em;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

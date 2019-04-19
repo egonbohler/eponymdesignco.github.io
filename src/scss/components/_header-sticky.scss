@@ -1,0 +1,56 @@
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  color: #000000;
+  background-color: transparent;
+  transition: background-color 0.3s;
+  .container {
+    display: grid;
+    height: 7em;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .logo-inverted {
+    filter: invert(1);
+  }
+
+  .hamburger {
+    .hamburger-inner-inverted,
+    .hamburger-inner-inverted::before,
+    .hamburger-inner-inverted::after
+    {
+      background: $white;
+      transition: all 0.8s;
+    }
+  }
+
+  .hamburger {
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after
+    {
+      background: $black;
+      transition: all 0.8s;
+    }
+  }
+
+  .nav-top {
+    background-color: transparent;
+    transition: all 0.8s;
+    .logo img {
+      transition: all 0.8s;
+    }
+  }
+
+  .nav-scrolled {
+    background-color: $white;
+    transition: all 0.8s;
+    .logo img {
+      filter: invert(0);
+      transition: all 0.8s;
+    }
+  }
+
+}

@@ -1,0 +1,26 @@
+.hamburger {
+  grid-column: 3;
+  justify-self: end;
+  margin-top: 1.5em;
+  z-index: 10;
+  cursor: pointer;
+  height: 40px;
+  &:focus {
+    outline: none;
+  }
+  // .hamburger-inner,
+  // .hamburger-inner::before,
+  // .hamburger-inner::after {
+  //   background: $black;
+  // }
+  // .hamburger-inner::after {
+  //   width: 18px;
+  //   right: 0;
+  // }
+  &.is-active {
+    .hamburger-inner::after {
+      width: inherit;
+      right: unset;
+    }
+  }
+}
