@@ -1,10 +1,10 @@
-import React from "react"
+import React, { Component } from "react"
 import { Link } from "gatsby"
 import MenuButton from "./menuButton.js"
 import MenuMobile from './MenuMobile.js';
 import logo from "../img/logo_main.svg"
 
-class Header extends React.Component {
+class Header extends Component {
   state = { menuActive: false, isTop: true}
 
   toggleMenu = () => {

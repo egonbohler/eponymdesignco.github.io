@@ -11,9 +11,7 @@ const TITLES = [
 class HeroSection extends Component {
   textInterval = 0;
   animationInterval = 0;
-  state = {
-    titleIndex: 0,
-  };
+  state = { titleIndex: 0 };
 
   componentDidMount(){
     this.animateTitles();
@@ -24,6 +22,7 @@ class HeroSection extends Component {
       const titleIndex = (this.state.titleIndex + 1) % TITLES.length;
       this.setState({ titleIndex });
     }, 8000);
+
     this.animationInterval = setInterval(()=>{
       let classList = document.getElementById('title').classList;
       if(classList.contains('is-visible')) {

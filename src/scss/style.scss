@@ -13,22 +13,17 @@
 @import 'libraries/hamburgers/hamburgers';
 
 // Components
-@import 'components/page';
 @import 'components/header';
 @import 'components/header-sticky';
 @import 'components/footer';
 @import 'components/logo';
 @import 'components/main-menu-mobile';
-@import 'components/social';
 @import 'components/hamburger';
-@import 'components/buttons';
-@import 'components/title';
-@import 'components/content';
 @import 'components/strip';
 
 // Custom
 
-@import '_hero-section'
+@import 'components/_hero-section'
 
 // Display breakpoints for DEV
 // body:after {
