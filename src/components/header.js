@@ -5,13 +5,7 @@ import MenuMobile from './MenuMobile.js';
 import logo from "../img/logo_main.svg"
 
 class Header extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      menuActive: false,
-      isTop: true,
-    };
-  }
+  state = { menuActive: false, isTop: true}
 
   toggleMenu = () => {
     this.setState(prevState => ({
@@ -20,6 +14,10 @@ class Header extends React.Component {
   };
 
   componentDidMount() {
+    this.checkScroll();
+  }
+
+  checkScroll = () => {
     window.addEventListener('scroll', () => {
       let scrollAtTop = window.scrollY < 100;
       if (scrollAtTop !== this.state.isTop) {
@@ -30,7 +28,6 @@ class Header extends React.Component {
 
 
   render() {
-    console.log('this.props from header component', this.props);
     return (
       <div id="nav" className="header sticky">
           <div className={`container ${this.state.isTop ? 'nav-top' : 'nav-scrolled'}`}>
@@ -40,15 +37,11 @@ class Header extends React.Component {
               </Link>
             </div>
             <MenuMobile active={this.state.menuActive} />
-            <MenuButton className= "hamburger" toggleMenu={this.toggleMenu} currentPath={this.props.currentPath} />
+            <MenuButton className= "hamburger" toggleMenu={this.toggleMenu} currentPath={this.props.currentPath} isTop={this.state.isTop} />
           </div>
         </div>
 
 )
 }}
 
-function mapStateToProps(state){
-  const { isTop } = state;
-  return { isTop };
-}
 export default Header;

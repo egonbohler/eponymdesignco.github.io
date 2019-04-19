@@ -22,6 +22,7 @@
     .hamburger-inner-inverted::after
     {
       background: $white;
+      transition: all 0.8s;
     }
   }
 
@@ -31,6 +32,7 @@
     .hamburger-inner::after
     {
       background: $black;
+      transition: all 0.8s;
     }
   }
 
@@ -38,7 +40,6 @@
     background-color: transparent;
     transition: all 0.8s;
     .logo img {
-      filter: invert(1);
       transition: all 0.8s;
     }
   }
@@ -51,7 +52,5 @@
       transition: all 0.8s;
     }
   }
-
-
 
 }
