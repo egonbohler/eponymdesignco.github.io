@@ -4,6 +4,7 @@ import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
+
   return (
     <Layout>
     <div css={css`
