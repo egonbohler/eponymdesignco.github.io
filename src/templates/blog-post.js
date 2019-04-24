@@ -1,57 +1,77 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { css } from "@emotion/core"
 import Img from 'gatsby-image'
 import Layout from "../components/layout"
+import NextProject from "../components/NextProject"
 
-export default ({ data }) => {
-  const post = data.markdownRemark
-  console.log('post.frontmatter.image', post.frontmatter.image.childImageSharp);
+export default ({ data, location, pageContext}) => {
+  const post = data.markdownRemark;
+  const { frontmatter} = post;
+  const { title } = frontmatter;
+  const { next, prev } = pageContext;
+
   return (
     <Layout>
-      <div css={css`
-        margin: 0 1em;
-        margin-top: 25vh ;
-        margin-bottom: 3em;
-        `}>
+      <div className="project-body">
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <div className="project-image-group">
         <Img
-          fluid={post.frontmatter.image.childImageSharp.fluid}
+          fluid={post.frontmatter.imageOne.childImageSharp.fluid}
           alt={post.frontmatter.title}
           className="project-image-main"
         />
         <Img
-          fluid={post.frontmatter.image.childImageSharp.fluid}
+          fluid={post.frontmatter.imageTwo.childImageSharp.fluid}
           alt={post.frontmatter.title}
           className="project-image-secondary"
         />
         <Img
-          fluid={post.frontmatter.image.childImageSharp.fluid}
+          fluid={post.frontmatter.imageThree.childImageSharp.fluid}
           alt={post.frontmatter.title}
           className="project-image-tertiary"
         />
         </div>
+        <NextProject prev={prev} next={next}/>
       </div>
+
     </Layout>
   )
 }
 
+{/* May be able to reference the gatsby docs on blog posts
+    with tags to implement an image count-agnostic query/component
+    see here: https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/
+  */}
 export const query = graphql`
-  query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+  query($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
         title
         date
-        image {
+        imageOne {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid
             }
           }
         }
+        imageTwo {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        imageThree {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
       }
     }
   }
