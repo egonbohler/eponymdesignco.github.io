@@ -2,8 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import ContactForm from "../components/ContactForm"
 
+
 export default ({ data }) => (
-  <Layout>
+  <Layout currentPath='/'>
+  <div className="cd-intro behind" />
     <div className="page-body">
       <h1 className="form-title">Say Hello</h1>
       <ContactForm />
