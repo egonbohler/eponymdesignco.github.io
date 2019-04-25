@@ -3,6 +3,7 @@ import { graphql, StaticQuery, Link } from 'gatsby';
 
 const MenuMobile = props => {
   const { menuLinks } = props.data.site.siteMetadata;
+
   return (
     <div>
       <div

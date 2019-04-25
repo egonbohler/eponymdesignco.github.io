@@ -2,9 +2,9 @@
 title: "The Cursed Runner"
 path: "/projects/the-cursed-runner/"
 date: "2018-12-28"
-imageOne: "../../img/the-cursed-runner/weddingOne.jpg"
-imageTwo: "../../img/the-cursed-runner/weddingOne.jpg"
-imageThree: "../../img/the-cursed-runner/weddingOne.jpg"
+imageOne: "../../img/the-cursed-runner/cursedOne.jpg"
+imageTwo: "../../img/the-cursed-runner/cursedTwo.jpg"
+imageThree: "../../img/the-cursed-runner/cursedTwo.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus. Elementum integer enim neque volutpat ac tincidunt. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Et malesuada fames ac turpis egestas integer eget aliquet. Eget sit amet tellus cras. Diam sollicitudin tempor id eu nisl nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada. Viverra justo nec ultrices dui. Porttitor leo a diam sollicitudin tempor id eu nisl nunc. Dolor sit amet consectetur adipiscing.

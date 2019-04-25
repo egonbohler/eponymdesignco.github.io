@@ -1,0 +1,51 @@
+.page-body {
+  min-height: 65vh;
+  width: 98%;
+  margin: 25vh auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 5% 95%;
+}
+.form-title {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  text-align: center;
+}
+.contact-form {
+  grid-row: 2 / 3;
+  grid-column: 1 / 4;
+  top: 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+input, textarea, select {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid $black;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+  padding-left: 0.25em;
+}
+
+.form-button {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  background-color: $black;
+  border-color: $black;
+  color: $white;
+  border-radius: 2px;
+}
+
+label {
+  margin-left: 10%;
+  display: block;
+}

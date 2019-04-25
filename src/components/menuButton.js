@@ -1,14 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 
-class MenuButton extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      hamburgerActive: false,
-    };
-  }
-
+class MenuButton extends Component {
+  state = { hamburgerActive: false }
+  
   handleToggle = () => {
     this.setState(prevState => ({
       hamburgerActive: !prevState.hamburgerActive,

@@ -121,7 +121,7 @@ $button-width: 35px;
         text-decoration: none;
         overflow: hidden;
         &:hover:after,
-        &:focus:after,
+        // &:focus:after,
         &:active:after {
           width: 100%;
         }

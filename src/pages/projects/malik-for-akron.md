@@ -1,10 +1,10 @@
 ---
 title: "Malik for Akron"
 path: "/projects/malik-for-akron/"
-date: "2019-02-21"
-imageOne: "../../img/malik-for-akron/weddingOne.jpg"
-imageTwo: "../../img/malik-for-akron/weddingOne.jpg"
-imageThree: "../../img/malik-for-akron/weddingOne.jpg"
+date: "2019-04-25"
+imageOne: "../../img/malik-for-akron/malikOne.jpg"
+imageTwo: "../../img/malik-for-akron/malikTwo.png"
+imageThree: "../../img/malik-for-akron/malikThree.png"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus. Elementum integer enim neque volutpat ac tincidunt. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Et malesuada fames ac turpis egestas integer eget aliquet. Eget sit amet tellus cras. Diam sollicitudin tempor id eu nisl nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada. Viverra justo nec ultrices dui. Porttitor leo a diam sollicitudin tempor id eu nisl nunc. Dolor sit amet consectetur adipiscing.

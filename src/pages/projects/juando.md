@@ -2,9 +2,9 @@
 title: "Juando"
 path: "/projects/juando/"
 date: "2018-09-10"
-imageOne: "../../img/juando/weddingOne.jpg"
-imageTwo: "../../img/juando/weddingOne.jpg"
-imageThree: "../../img/juando/weddingOne.jpg"
+imageOne: "../../img/juando/juandoOne.png"
+imageTwo: "../../img/juando/juandoTwo.png"
+imageThree: "../../img/juando/juandoThree.png"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus. Elementum integer enim neque volutpat ac tincidunt. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Et malesuada fames ac turpis egestas integer eget aliquet. Eget sit amet tellus cras. Diam sollicitudin tempor id eu nisl nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada. Viverra justo nec ultrices dui. Porttitor leo a diam sollicitudin tempor id eu nisl nunc. Dolor sit amet consectetur adipiscing.

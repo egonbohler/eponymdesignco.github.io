@@ -47,7 +47,7 @@ exports.createPages = ({ actions, graphql }) => {
     // Create pages for each markdown file.
     posts.forEach(({ node }, index) => {
       const home = {
-        frontmatter: { path: '../', title: 'Back to Home', date: ''}
+        frontmatter: { path: '../contact/', title: 'Contact Us', date: ''}
       }
       const prev = index === 0 ? home : posts[index - 1].node
       const next =

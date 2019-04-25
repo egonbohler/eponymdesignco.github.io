@@ -1,11 +1,10 @@
 import React, { Component } from "react"
 
 const TITLES = [
-  'beautiful websites.',
-  'dazzling user experiences.',
-  'print designs.',
-  'business processes.',
-  'A/B tests.'
+  'fast, beautiful websites.',
+  'professional brand identites.',
+  'elegant user experiences.',
+  'effective print & digital marketing.'
 ];
 
 class HeroSection extends Component {

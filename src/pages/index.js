@@ -10,35 +10,17 @@ export default ({ data }) => {
   return (
     <Layout currentPath='/'>
       <HeroSection />
-      <div css={css`
-        padding-left: 1em;
-        `}>
+      <div className="homepage-body">
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id} css={css`
-            margin-bottom: 3em;
-          `}>
+          <div key={node.id} className="home-project-link">
             <Link
+              className="project-title-link"
               to={node.fields.slug}
-              css={css`
-                text-decoration: none;
-                color: inherit;
-              `
-}
             >
-              <h3
-                css={css`
-                  margin-bottom: 0.25em;
-                  color: #000000;
-                `}
-              >
+              <h3 className="project-title">
                 {node.frontmatter.title}{" "}
-
               </h3>
-              <span
-                css={css`
-                  color: #2C3A47;
-                `}
-              >
+              <span className="project-date">
                {node.frontmatter.date}
               </span>
             </Link>
@@ -58,7 +40,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "MMMM, YYYY")
           }
           fields {
             slug

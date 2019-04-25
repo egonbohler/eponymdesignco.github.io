@@ -1,19 +1,12 @@
 import React from "react"
-import { css } from "@emotion/core"
 import Layout from "../components/layout"
+import ContactForm from "../components/ContactForm"
 
 export default ({ data }) => (
   <Layout>
-    <div css={css`
-      padding-left: 1em;
-      margin-top: 25vh ;
-      width: 95%;
-      `}>
-      <h1>Contact {data.site.siteMetadata.title}</h1>
-      <p>
-        We&#39;re the only site running on your computer dedicated to showing the best
-        photos and videos of pandas eating lots of food.
-      </p>
+    <div className="page-body">
+      <h1 className="form-title">Say Hello</h1>
+      <ContactForm />
     </div>
   </Layout>
 )

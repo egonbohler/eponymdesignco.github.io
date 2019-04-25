@@ -36,7 +36,7 @@ class Header extends Component {
                 <img alt="logo" src={logo} className={`${this.props.currentPath === '/' ?  'logo-inverted' : ''}`} />
               </Link>
             </div>
-            <MenuMobile active={this.state.menuActive} />
+            <MenuMobile active={this.state.menuActive} toggleMenu={this.toggleMenu}/>
             <MenuButton className= "hamburger" toggleMenu={this.toggleMenu} currentPath={this.props.currentPath} isTop={this.state.isTop} />
           </div>
         </div>
