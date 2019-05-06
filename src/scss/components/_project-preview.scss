@@ -1,0 +1,48 @@
+.project-preview {
+  -webkit-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Firefox 3.5 - 3.6 */
+  box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  padding-top: 10vh;
+  border-radius: 2px;
+  display: grid;
+  background-color: $white;
+  height: 20em;
+  width: 32em;
+  max-width: 80%;
+  margin: 10vh auto 10vh auto;
+}
+
+.preview-img {
+  height: 14em;
+  margin-top: -4.25em;
+  border-radius: 2px 2px 0 0 ;
+}
+
+.preview-text {
+  width: 90%;
+  height: 100%;
+  margin: 0.5em;
+  .overflow {
+    line-height: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+
+.scroll-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  &::-webkit-scrollbar {
+   display: none;
+ }
+  .project-preview {
+    display: inline-block;
+    margin: 0 10vw 10vh 10vw;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}

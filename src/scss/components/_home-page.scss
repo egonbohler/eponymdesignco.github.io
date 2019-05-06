@@ -1,5 +1,15 @@
-.homepage-body {
-  padding-left: 1em;
+@media only screen and (min-device-width : 768px){
+  .homepage-body {
+    width: 98%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-device-width : 767px){
+  .homepage-body {
+    width: 92%;
+    margin: 0 auto;
+  }
 }
 
 .home-project-link {
@@ -17,4 +27,8 @@
 }
 .project-date {
   color: #2C3A47;
+}
+
+.preview-img {
+  top: 0;
 }

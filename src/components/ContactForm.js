@@ -36,12 +36,10 @@ const ContactForm = () => (
        <label for="email">You can reach me at</label>
        <input type="email" name="email" placeholder="email" required/>
       </p>
-
       <p>
        <button type="submit" className="form-button">Send</button>
       </p>
     </form>
   </div>
 )
-
 export default ContactForm;

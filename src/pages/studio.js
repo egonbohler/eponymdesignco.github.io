@@ -16,7 +16,7 @@ const Studio = props => (
           help you design something that looks great but can help measure the impact of that design solution on your business.
         </p>
         <p>
-          No matter the project, we take a highly tailored approach. We start with defining your business goal(s) and work iteratively toward solutions optimized
+          No matter the project, we take a highly tailored approach. We start with defining your business goals and work iteratively toward solutions optimized
           to achieve your desired outcome.
           If you're looking to start a new project, consider Eponym for any of the following:
         </p>
