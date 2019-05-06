@@ -2,8 +2,10 @@ module.exports = {
   siteMetadata: {
     title: 'Eponym Design Co.',
     description: 'Eponym Design Collective. A Cleveland, Ohio based creative studio.',
+    url: 'https://eponym.design',
+    facebookAppID: '',
     contact: {
-      phone: 'XXX XXX XXX',
+      phone: '440 561 6386',
       email: 'hello@eponym.design',
     },
     menuLinks: [
@@ -34,6 +36,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-emotion`,
     'gatsby-plugin-sass',
+    `gatsby-plugin-react-helmet`
     {
       resolve: `gatsby-source-filesystem`,
       options: {

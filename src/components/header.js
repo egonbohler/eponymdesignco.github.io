@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import MenuButton from "./menuButton.js"
 import MenuMobile from './MenuMobile.js';
 import logo from "../img/logo_main.svg"
+import SEO from './SEO'
 
 class Header extends Component {
   state = { menuActive: false, isTop: true}
@@ -30,6 +31,7 @@ class Header extends Component {
   render() {
     return (
       <div id="nav" className="header sticky">
+          <SEO />
           <div className={`container ${this.state.isTop ? 'nav-top' : 'nav-scrolled'}`}>
             <div className="logo">
               <Link to={`/`}>
