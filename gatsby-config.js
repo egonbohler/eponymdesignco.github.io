@@ -1,4 +1,4 @@
-module.exports = {
+ const cfg = {
   siteMetadata: {
     title: 'Eponym Design Co.',
     description: 'Eponym Design Collective. A Cleveland, Ohio based creative studio.',
@@ -36,7 +36,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-emotion`,
     'gatsby-plugin-sass',
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -52,3 +52,18 @@ module.exports = {
     },
   ],
 }
+
+if (process.env.CONTEXT === "production") {
+  const googleAnalyticsCfg = {
+    resolve: "gatsby-plugin-google-analytics",
+    options: {
+      trackingId: "UA-139684080-1" ,
+      head: false,
+      anonymize: true,
+      respectDNT: true,
+    }
+  };
+  cfg.plugins.push(googleAnalyticsCfg);
+}
+
+module.exports = cfg;
