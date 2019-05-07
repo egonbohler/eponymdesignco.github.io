@@ -1,5 +1,7 @@
 import React from 'react';
 import { graphql, StaticQuery, Link } from 'gatsby';
+import { IconContext } from "react-icons";
+import { FaFacebookSquare, FaDribbbleSquare, FaInstagram} from 'react-icons/fa';
 
 const MenuMobile = props => {
   const { menuLinks } = props.data.site.siteMetadata;
@@ -17,6 +19,13 @@ const MenuMobile = props => {
             </li>
           ))}
         </ul>
+        <IconContext.Provider value={{ color: "white", className: "global-class-name", size: '2em'}}>
+          <div style={{marginTop: '3em'}}>
+            <a href="https://www.facebook.com/eponym.design" target="_blank"><FaFacebookSquare style={{margin: '1em', opacity: '0.8'}} /></a>
+            <a href="https://dribbble.com/" target="_blank"><FaDribbbleSquare style={{margin: '1em', opacity: '0.8'}} /></a>
+            <a href="https://www.instagram.com/eponym.design/" target="_blank"><FaInstagram style={{margin: '1em', opacity: '0.8'}} /></a>
+          </div>
+        </IconContext.Provider>
       </div>
       <div id="overlay" className={`overlay ${props.active ? 'open' : ''}`}></div>
     </div>

@@ -5,11 +5,15 @@ import ContactForm from "../components/ContactForm"
 
 export default ({ data }) => (
   <Layout currentPath='/'>
-  <div className="cd-intro behind" />
-    <div className="page-body">
-      <h1 className="form-title">Say Hello</h1>
-      <ContactForm />
+  <div className="behind">
+    <div className="cd-intro">
+      <div className="bg-filter"/>
     </div>
+  </div>
+  <div className="page-body">
+    <h1 className="form-title">Say Hello</h1>
+    <ContactForm />
+  </div>
   </Layout>
 )
 
