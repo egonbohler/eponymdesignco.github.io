@@ -40,13 +40,15 @@ class HeroSection extends Component {
   render() {
     const title = TITLES[this.state.titleIndex];
     return(
-      <div className="cd-intro behind">
-        <h3 className="cd-headline rotate-1">
-        <span>This is Eponym. We&apos;re known for creating&nbsp;</span>
-        <span className="cd-words-wrapper">
-          <b id="title" className="is-visible">{title}</b>
-        </span>
-        </h3>
+      <div className="cd-intro">
+        <div className="bg-filter">
+          <h3 className="cd-headline rotate-1">
+          <span>This is Eponym. We&apos;re known for creating&nbsp;</span>
+          <span className="cd-words-wrapper">
+            <b id="title" className="is-visible">{title}</b>
+          </span>
+          </h3>
+        </div>
       </div>
     )
 }}
