@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'gatsby'
 import Img from 'gatsby-image';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init();
+
 
 const ServicePreview = props => {
   const { tags } = props;
+  const isBrowser = typeof window !== 'undefined';
+  const AOS = isBrowser ? require('aos') : undefined;
+
+  AOS.init();
   return(
     <div
       className={props.position}
