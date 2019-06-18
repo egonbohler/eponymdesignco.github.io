@@ -25,7 +25,7 @@
         name: 'Contact',
         link: '/contact',
       },
-    ],  
+    ],
   },
   plugins: [
     {
