@@ -38,7 +38,6 @@
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-emotion`,
     'gatsby-plugin-sass',
     `gatsby-plugin-react-helmet`,
     {
@@ -46,12 +45,6 @@
       options: {
         name: `src`,
         path: `${__dirname}/src/`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
       },
     },
   ],
