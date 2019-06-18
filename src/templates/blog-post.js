@@ -9,7 +9,6 @@ export default ({ data, location, pageContext}) => {
   const { frontmatter} = post;
   const { title, imageOne, imageTwo, imageThree, tags } = frontmatter;
   const { next, prev } = pageContext;
-  console.log('tags', tags);
   return (
     <Layout>
       <div className="project-body">

@@ -20,11 +20,6 @@
         "path": "/contact/"
     },
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "jsonName": "dev-404-page-5f9",
-        "path": "/dev-404-page/"
-    },
-    {
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "projects-bryson-bohler-wedding-487",
         "path": "/projects/bryson-bohler-wedding/"
@@ -53,26 +48,6 @@
         "componentChunkName": "component---src-pages-services-js",
         "jsonName": "services-522",
         "path": "/services/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "services-digital-print-media-4f3",
-        "path": "/services/digital-print-media"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "services-logo-design-051",
-        "path": "/services/logo-design"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "services-print-design-95b",
-        "path": "/services/print-design"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "services-web-design-8f6",
-        "path": "/services/web-design"
     },
     {
         "componentChunkName": "component---src-pages-studio-js",

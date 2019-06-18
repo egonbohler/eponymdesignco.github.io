@@ -63,6 +63,7 @@ export const query = graphql`
       filter: {
         frontmatter: {
           featured: { eq: true }
+          type: { eq: "project" }
         }
       }
       sort: { fields: [frontmatter___date], order: DESC }
