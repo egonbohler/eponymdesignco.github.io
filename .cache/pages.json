@@ -31,6 +31,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "projects-burgess-capital-a94",
+        "path": "/projects/burgess-capital"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "projects-juando-1a3",
         "path": "/projects/juando/"
     },
@@ -45,8 +50,38 @@
         "path": "/projects/the-cursed-runner/"
     },
     {
+        "componentChunkName": "component---src-pages-services-js",
+        "jsonName": "services-522",
+        "path": "/services/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "services-digital-print-media-4f3",
+        "path": "/services/digital-print-media"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "services-logo-design-051",
+        "path": "/services/logo-design"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "services-print-design-95b",
+        "path": "/services/print-design"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "services-web-design-8f6",
+        "path": "/services/web-design"
+    },
+    {
         "componentChunkName": "component---src-pages-studio-js",
         "jsonName": "studio-ae6",
         "path": "/studio/"
+    },
+    {
+        "componentChunkName": "component---src-pages-work-js",
+        "jsonName": "work-fa6",
+        "path": "/work/"
     }
 ]

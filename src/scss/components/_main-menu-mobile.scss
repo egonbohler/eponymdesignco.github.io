@@ -98,9 +98,10 @@ $button-width: 35px;
     }
   }
   ul {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: $font-family-heading;
-    font-weight: $font-weight-black;
+    font-weight: $font-weight-semibold;
+    text-transform: lowercase;
     text-align: left;
     list-style: none;
     padding: 0;

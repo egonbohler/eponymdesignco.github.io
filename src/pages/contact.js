@@ -11,7 +11,7 @@ export default ({ data }) => (
     </div>
   </div>
   <div className="page-body">
-    <h1 className="form-title">Say Hello</h1>
+    <h1 className="form-title about-header">Say Hello</h1>
     <ContactForm />
   </div>
   </Layout>

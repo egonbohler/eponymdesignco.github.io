@@ -2,11 +2,18 @@
 title: "Juando"
 path: "/projects/juando/"
 date: "2018-09-10"
+type: "project"
 imageOne: "../../img/juando/juandoOne.png"
 imageTwo: "../../img/juando/juandoTwo.png"
-imageThree: "../../img/juando/juandoThree.png"
+imageThree: "../../img/juando/juando_preview.png"
+coverImage: "../../img/juando/juando_cover.png"
+previewImage: "../../img/juando/juando_preview.png"
+tags: ["logo design", "branding"]
+featured: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus. Elementum integer enim neque volutpat ac tincidunt. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Et malesuada fames ac turpis egestas integer eget aliquet. Eget sit amet tellus cras. Diam sollicitudin tempor id eu nisl nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada. Viverra justo nec ultrices dui. Porttitor leo a diam sollicitudin tempor id eu nisl nunc. Dolor sit amet consectetur adipiscing.
+Jack H (AKA Juando) is an Austin, Texas based DJ and producer, specializing in all things house music. Despite years of experience creating and playing house music under the alias Juando, he realized he'd never created a visual identity for his on-stage persona. Determined to create a brand that fit this persona, Jack turned to Eponym to craft an identity.
 
-Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Elementum sagittis vitae et leo duis ut. Augue lacus viverra vitae congue eu consequat ac. Amet massa vitae tortor condimentum lacinia quis vel eros. Malesuada fames ac turpis egestas. Magna fringilla urna porttitor rhoncus dolor purus non. Viverra nibh cras pulvinar mattis nunc sed blandit. Convallis a cras semper auctor neque vitae. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Enim facilisis gravida neque convallis a cras semper auctor neque. Sed cras ornare arcu dui vivamus arcu felis bibendum. Volutpat diam ut venenatis tellus in metus vulputate. Tincidunt tortor aliquam nulla facilisi. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Commodo odio aenean sed adipiscing diam. Amet cursus sit amet dictum sit amet justo donec. Scelerisque eu ultrices vitae auctor. Purus sit amet volutpat consequat.
+From the onset, Jack knew he wanted a logo that was both modern and minimalistic – representative of both the style of music he produces in the studio, and plays live. With this guidance, we went through a series of logo iterations and ultimately landed on one that fit the style Jack was aiming for. Through its use of angular lettering and negative space the design is both visually minimal, and avant garde.
+
+The result was outstanding. Jack was pleased to finally have a logo that not only represented his unique talent, but also helped fans recognize his work both online and at shows by presenting it under one consistent visual identity.

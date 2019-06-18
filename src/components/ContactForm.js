@@ -22,10 +22,10 @@ const ContactForm = () => (
       <p>
         <label for="budget">I have a budget of</label>
         <select name="budget" required>
-          <option value="< $500">> $500</option>
-          <option value="$500 - $1,000">$500 - $1000</option>
-          <option value="$1,000 - $2,000">$1000 - $2000</option>
-          <option value="> $2,000">> $2,000</option>
+          <option value="< $500">Less than $500</option>
+          <option value="$500 - $1,000">$500 - $1,000</option>
+          <option value="$1,000 - $2,000">$1,000 - $2,000</option>
+          <option value="> $2,000">More than $2,000</option>
         </select>
       </p>
       <p>

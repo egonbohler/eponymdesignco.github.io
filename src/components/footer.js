@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, Link, StaticQuery } from 'gatsby';
 import { IconContext } from "react-icons";
-import { FaFacebookSquare, FaDribbbleSquare, FaInstagram} from 'react-icons/fa';
+import { FaFacebookSquare, FaDribbble, FaInstagram} from 'react-icons/fa';
 
 const Footer = props => {
   const { menuLinks } = props.data.site.siteMetadata;
@@ -18,11 +18,11 @@ const Footer = props => {
             ))
           }
           </ul>
-          <IconContext.Provider value={{ color: "white", className: "global-class-name", size: "1.25em" }} style={{margin: '0 auto'}}>
+          <IconContext.Provider value={{ color: "white", className: "global-class-name", size: "1rem" }} style={{margin: '0 auto'}}>
             <div>
-              <a href="https://www.facebook.com/eponym.design" target="_blank"><FaFacebookSquare style={{marginRight: '1em', opacity: '0.8'}} /></a>
-              <a href="https://dribbble.com/" target="_blank"><FaDribbbleSquare style={{marginRight: '1em', opacity: '0.8'}} /></a>
-              <a href="https://www.instagram.com/eponym.design/" target="_blank"><FaInstagram style={{ opacity: '0.8'}} /></a>
+              <a href="https://www.facebook.com/eponym.design" target="_blank" rel="noopener noreferrer"><FaFacebookSquare style={{marginRight: '1em'}} /></a>
+              <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer"><FaDribbble style={{marginRight: '1em'}} /></a>
+              <a href="https://www.instagram.com/eponym.design/" target="_blank" rel="noopener noreferrer"><FaInstagram  /></a>
             </div>
           </IconContext.Provider>
         </div>

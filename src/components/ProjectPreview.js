@@ -1,20 +1,97 @@
 import React from 'react';
 import Img from 'gatsby-image';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
-const ProjectPreview = props => (
-  <div className="project-preview">
-    <Img
-      fluid={props.previewImg.childImageSharp.fluid}
-      alt={props.title}
-      className="preview-img"
-      objectFit="cover"
-      objectPosition="50% 50%"
-    />
-    <div className="preview-text">
-      <h3 className="overflow">{props.title}</h3>
-      <span className="overflow">{props.date}</span>
+const ProjectPreview = props => {
+  const { tags } = props;
+  return(
+    <div
+      className={props.position}
+      data-aos={props.fadeDirection}
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+    {
+      props.position === "left" ?
+      (
+        <div className={props.position}>
+          <div className="preview-text">
+            <span className="hr-active"/>
+            <h3 className="overflow">{props.title}</h3>
+          </div>
+          <div className="preview-cover">
+            <Img
+              fluid={props.coverImage.childImageSharp.fluid}
+              alt={props.title}
+              className="cover-image"
+              objectFit="cover"
+            />
+          </div>
+          <div className="project-preview">
+            <Img
+              fluid={props.previewImg.childImageSharp.fluid}
+              alt={props.title}
+              className="preview-img"
+              objectFit="cover"
+            />
+          </div>
+          <div className="project-excerpt">
+            <div>
+              <p className="tag">Tags:</p>
+              {
+                tags.map((tag, index) =>{
+                  return(<p key={index} className="tag">{tag}</p>)
+                })
+              }
+            </div>
+            <p>{props.excerpt}</p>
+            <h5 className="see-more">See More</h5>
+          </div>
+        </div>
+      )
+      :
+      (
+        <div className={props.position}>
+          <div className="preview-text">
+            <span className="hr-active"/>
+            <h3 className="overflow">{props.title}</h3>
+          </div>
+          <div className="project-excerpt">
+            <div>
+              <p className="tag">Tags:</p>
+              {
+                tags.map((tag, index) =>{
+                  return(<p key={index} className="tag">{tag}</p>)
+                })
+              }
+            </div>
+            <p>{props.excerpt}</p>
+            <h5 className="see-more">See More</h5>
+          </div>
+          <div className="preview-cover">
+            <Img
+              fluid={props.coverImage.childImageSharp.fluid}
+              alt={props.title}
+              className="cover-image"
+              objectFit="cover"
+            />
+          </div>
+          <div className="project-preview">
+            <Img
+              fluid={props.previewImg.childImageSharp.fluid}
+              alt={props.title}
+              className="preview-img"
+              objectFit="cover"
+            />
+          </div>
+        </div>
+      )
+    }
     </div>
-  </div>
-)
+  )
+}
 
 export default ProjectPreview;

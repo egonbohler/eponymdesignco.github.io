@@ -6,7 +6,7 @@ const Studio = props => (
   <Layout currentPath='/'>
   <div className="cd-intro behind" />
     <div className="page-body">
-      <h1 className="form-title">Our Studio</h1>
+      <h1 className="form-title about-header">Our Studio</h1>
       <div className="studio-content">
         <p>Eponym is a small design and web development agency based in Cleveland, Ohio.</p>
         <p>

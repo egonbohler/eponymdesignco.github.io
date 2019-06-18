@@ -1,7 +1,6 @@
 .page-body {
   width: 80%;
   position: relative;
-  z-index: 1;
   margin: -60vh auto 20vh auto;
   -webkit-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Firefox 3.5 - 3.6 */
@@ -61,4 +60,10 @@ textarea::placeholder {
 label {
   margin-left: 10%;
   display: block;
+}
+
+@media only screen and (max-device-width : 767px){
+  .page-body {
+    width: 95%;
+  }
 }

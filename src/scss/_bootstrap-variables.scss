@@ -19,10 +19,9 @@ $grid-gutter-width: 20px;
 $white: #ffffff;
 $black: #000000;
 $black-muted: rgba(0,0,0, 0.7);
-$primary: #B33771;
+$primary: #079992;
 $secondary: #F7F2F4;
-$action:#25CCF7;
-$action-secondary: #1B9CFC;
+$action-secondary: #1b9cfc;
 
 // Links
 $link-color: $black;
@@ -31,15 +30,16 @@ $link-decoration: none;
 // $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: 'Open Sans', 'Helvetica Neue', Arial, sans-serif,
+$font-family-base: 'sofia-pro', 'Helvetica Neue', Arial, sans-serif,
   -apple-system;
-$font-family-heading: 'Playfair Display', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+$font-family-heading: 'escrow', 'Helvetica Neue', Arial, sans-serif, -apple-system;
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-size-large: 1.4rem;
 $font-weight-thin: 200;
 $font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-medium: 500;
+$font-weight-semibold: 600;
 $font-weight-bold: 700;
 $font-weight-extra-bold: 800;
 $font-weight-black: 900;

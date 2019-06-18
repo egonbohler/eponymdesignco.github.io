@@ -7,28 +7,36 @@ import NextProject from "../components/NextProject"
 export default ({ data, location, pageContext}) => {
   const post = data.markdownRemark;
   const { frontmatter} = post;
-  const { title } = frontmatter;
+  const { title, imageOne, imageTwo, imageThree, tags } = frontmatter;
   const { next, prev } = pageContext;
-
+  console.log('tags', tags);
   return (
     <Layout>
       <div className="project-body">
-        <h1>{post.frontmatter.title}</h1>
+        <h1 className="project-title">{title}</h1>
+        <div className="tags-line">
+          <p className="tag">Tags:</p>
+          {
+            tags.map(tag =>{
+              return(<p className="tag">{tag}</p>)
+            })
+          }
+        </div>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <div className="project-image-group">
         <Img
-          fluid={post.frontmatter.imageOne.childImageSharp.fluid}
-          alt={post.frontmatter.title}
+          fluid={imageOne.childImageSharp.fluid}
+          alt={title}
           className="project-image-main"
         />
         <Img
-          fluid={post.frontmatter.imageTwo.childImageSharp.fluid}
-          alt={post.frontmatter.title}
+          fluid={imageTwo.childImageSharp.fluid}
+          alt={title}
           className="project-image-secondary"
         />
         <Img
-          fluid={post.frontmatter.imageThree.childImageSharp.fluid}
-          alt={post.frontmatter.title}
+          fluid={imageThree.childImageSharp.fluid}
+          alt={title}
           className="project-image-tertiary"
         />
         </div>
@@ -50,6 +58,7 @@ export const query = graphql`
       frontmatter {
         title
         date
+        tags
         imageOne {
           childImageSharp {
             fluid(maxWidth: 1000) {

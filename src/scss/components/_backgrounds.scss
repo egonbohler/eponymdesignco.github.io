@@ -1,3 +1,8 @@
+.work-title{
+  padding-top: 10vh;
+  box-sizing: border-box;
+}
+
 @media only screen and (min-device-width : 768px){
 .background {
   padding: 5vh 0;
@@ -6,6 +11,7 @@
 
 .half {
   width: 60%;
+
   margin: auto;
   display: flex;
   flex-flow: row wrap;
@@ -15,6 +21,7 @@
 
 .flex-child{
   width: 50%;
+  min-width: 360px;
   flex: 1 1 auto;
 }
 

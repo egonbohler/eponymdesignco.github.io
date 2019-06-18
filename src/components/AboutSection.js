@@ -16,7 +16,7 @@ const AboutSection = () => (
           Need print or digital ads that create a great first impression? We're your team.
         </p>
         <p className="about-text">
-          No matter the challenge, our mission is to make it happen.
+          No matter the challenge, our mission is to deliver a solution that performs.
         </p>
       </div>
       <div className="flex-child">

@@ -11,7 +11,11 @@
     menuLinks: [
       {
         name: 'Work',
-        link: '/',
+        link: '/work',
+      },
+      {
+        name: 'Services',
+        link: '/services',
       },
       {
         name: 'Our Studio',
@@ -21,7 +25,7 @@
         name: 'Contact',
         link: '/contact',
       },
-    ],
+    ],  
   },
   plugins: [
     {

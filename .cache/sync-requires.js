@@ -10,6 +10,8 @@ exports.components = {
   "component---src-pages-404-js": hot(preferDefault(require("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/404.js"))),
   "component---src-pages-contact-js": hot(preferDefault(require("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/contact.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/index.js"))),
-  "component---src-pages-studio-js": hot(preferDefault(require("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/studio.js")))
+  "component---src-pages-services-js": hot(preferDefault(require("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/services.js"))),
+  "component---src-pages-studio-js": hot(preferDefault(require("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/studio.js"))),
+  "component---src-pages-work-js": hot(preferDefault(require("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/work.js")))
 }
 

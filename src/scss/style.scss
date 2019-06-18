@@ -1,5 +1,7 @@
 // Font
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Open+Sans');
+@import url("https://use.typekit.net/jam4rzq.css"); // Sofia fontface
+@import url("https://use.typekit.net/jam4rzq.css"); // Escrow Bold fontface
+
 
 // Bootstrap
 @import 'bootstrap/functions';
@@ -31,6 +33,7 @@
 @import 'components/_project-preview';
 @import 'components/_strip';
 @import 'components/_studio-page';
+@import 'components/_tags'
 
 // Display breakpoints for DEV
 // body:after {

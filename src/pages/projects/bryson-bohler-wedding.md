@@ -1,12 +1,20 @@
 ---
-title: "Bryson Bohler Wedding"
+title: "The Bohler Wedding"
 path: "/projects/bryson-bohler-wedding/"
 date: "2018-05-04"
+type: "project"
 imageOne: "../../img/bryson-bohler-wedding/weddingOne.jpg"
-imageTwo: "../../img/bryson-bohler-wedding/weddingTwo.jpg"
-imageThree: "../../img/bryson-bohler-wedding/weddingThree.jpg"
+imageTwo: "../../img/bryson-bohler-wedding/weddingSix.png"
+imageThree: "../../img/bryson-bohler-wedding/weddingFive.jpg"
+coverImage: "../../img/bryson-bohler-wedding/wedding_cover.png"
+previewImage: "../../img/bryson-bohler-wedding/wedding_preview.png"
+tags: ["print design", "web design", "weddings"]
+featured: true
 ---
+This project was especially near and dear, as this wedding was none other than my own. Set to take place in Fall 2018, we began concepting the look and feel of our wedding well over a year before the festivities were to take place. Since we were living in the San Francisco Bay Area at the time we knew we wanted to incorporate elements of the wild, natural beauty found on our back doorstep while maintaining a 'classic' look and feel.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus. Elementum integer enim neque volutpat ac tincidunt. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Et malesuada fames ac turpis egestas integer eget aliquet. Eget sit amet tellus cras. Diam sollicitudin tempor id eu nisl nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada. Viverra justo nec ultrices dui. Porttitor leo a diam sollicitudin tempor id eu nisl nunc. Dolor sit amet consectetur adipiscing.
+For the wedding we created a series of print assets that carried these themes through, including a save-the-date, an invitation, ceremony programs, table markers, food and drink menus. Throughout each of the assets we were able to keep a consistent, classic look and feel and were able to add touches of our new California home throughout. In the save the date, we featured a photo of my fiancée, myself, and our dog visiting beautiful Lake Tahoe. For each of the table cards we added a customized map of significant locations in our lives, throughout our new home in California and our childhood homes in Northeast Ohio.
 
-Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Elementum sagittis vitae et leo duis ut. Augue lacus viverra vitae congue eu consequat ac. Amet massa vitae tortor condimentum lacinia quis vel eros. Malesuada fames ac turpis egestas. Magna fringilla urna porttitor rhoncus dolor purus non. Viverra nibh cras pulvinar mattis nunc sed blandit. Convallis a cras semper auctor neque vitae. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Enim facilisis gravida neque convallis a cras semper auctor neque. Sed cras ornare arcu dui vivamus arcu felis bibendum. Volutpat diam ut venenatis tellus in metus vulputate. Tincidunt tortor aliquam nulla facilisi. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Commodo odio aenean sed adipiscing diam. Amet cursus sit amet dictum sit amet justo donec. Scelerisque eu ultrices vitae auctor. Purus sit amet volutpat consequat.
+To complete the pre-wedding experience, we developed a custom website for our wedding featuring details of the ceremony, reception, wedding party and more. Guests were able to find links to our registries, hotel accommodations, and submit their RSVPs directly via the site – no hassle of heading back to the mailbox!
+
+The project was a total success – countless guests commented on the ease of the site and the attention to detail woven throughout the experience both online and offline.

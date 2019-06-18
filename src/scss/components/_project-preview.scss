@@ -1,48 +1,170 @@
-.project-preview {
-  -webkit-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Firefox 3.5 - 3.6 */
-  box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  border-radius: 3px;
-  display: grid;
-  background-color: $white;
-  height: 20em;
-  width: 32em;
-  max-width: 80%;
-  margin: 10vh auto 10vh auto;
-}
-
-.preview-img {
-  height: 14em;
+.preview-cover{
   position: relative;
-  top: 0;
-  border-radius: 3px 3px 0 0 ;
+  z-index: 1;
 }
 
-.preview-text {
-  width: 90%;
-  height: 100%;
-  margin: 0.5em;
-  .overflow {
-    line-height: normal;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+.see-more{
+  color: $action-secondary;
+  font-size: $font-size-base;
+}
+
+@media only screen and (min-device-width : 768px){
+  .preview-img {
+    height: 40vh;
+    width: 40vw;
+    min-width: 360px;
+    border-radius: 3px;
+    -webkit-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Firefox 3.5 - 3.6 */
+    box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+  .left{
+    position: relative;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    .preview-text {
+      width: 100%;
+      height: auto;
+      margin: 0 0 2em 20vw;
+      position: relative;
+      .overflow {
+        display: inline-block;
+        text-transform: uppercase;
+      }
+    }
+    .cover-image{
+      height: 80vh;
+      width: 40vw;
+      min-width: 360px;
+      border-radius: 0 5px 5px 0;
+    }
+    .project-preview {
+      position: absolute;
+      margin: 15rem 0 0 15rem;
+      z-index: 30;
+    }
+    .project-excerpt{
+      position: relative;
+      width: 30vw;
+      margin: auto 0 auto 25vw;
+      min-width: 360px;
+    }
+  }
+  .right{
+    position: relative;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    .preview-text {
+      text-align: right;
+      width: 100%;
+      height: auto;
+      margin: 0 20vw 2em 0;
+      position: relative;
+      .overflow {
+        display: inline-block;
+        text-transform: uppercase;
+      }
+    }
+    .cover-image{
+      height: 80vh;
+      width: 40vw;
+      min-width: 360px;
+      border-radius: 5px 0 0 5px;
+    }
+    .project-preview {
+      position: absolute;
+      margin: 15rem 0 0 -15rem;
+      z-index: 30;
+    }
+    .project-excerpt{
+      position: relative;
+      width: 30vw;
+      margin: auto 25vw auto 0;
+      min-width: 360px;
+    }
   }
 }
 
+@media only screen and (max-device-width : 767px){
+  .preview-img {
+    height: auto;
+    width: 80vw;
+    border-radius: 3px;
+    -webkit-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Firefox 3.5 - 3.6 */
+    box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
 
-.scroll-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  &::-webkit-scrollbar {
-   display: none;
- }
-  .project-preview {
-    display: inline-block;
-    margin: 0 10vw 10vh 10vw;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+  .left {
+    position: relative;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    .preview-text {
+      width: 100%;
+      height: auto;
+      padding: 0 0 2em 1em;
+      box-sizing: border-box;
+      position: relative;
+      .overflow {
+        display: inline-block;
+        text-transform: uppercase;
+      }
+    }
+    .cover-image{
+      height: 40vh;
+      width: 100%;
+    }
+    .project-preview {
+      position: relative;
+      margin: -8rem 0 0 10vw;
+      z-index: 30;
+    }
+    .project-excerpt{
+      position: relative;
+      width: 80vw;
+      margin: 2rem 10vw 5rem 10vw;
+      min-width: 360px;
+    }
+  }
+  .right {
+    position: relative;
+    margin-bottom: 22vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    .preview-text {
+      position: relative;
+      text-align: right;
+      width: 100%;
+      height: auto;
+      padding: 0 1em 2em 0;
+      box-sizing: border-box;
+      .overflow {
+        display: inline-block;
+        text-transform: uppercase;
+      }
+
+    }
+    .cover-image{
+      height: 40vh;
+      width: 100%;
+    }
+    .project-preview {
+      position: relative;
+      margin: -8rem 0 0 10vw;
+      z-index: 30;
+    }
+    .project-excerpt{
+      position: absolute;
+      width: 80vw;
+      margin: 26rem 10vw 5rem 10vw;
+      min-width: 360px;
+    }
   }
 }
