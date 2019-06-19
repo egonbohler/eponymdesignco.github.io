@@ -79,6 +79,17 @@ class ServicePreview extends Component {
                 objectFit="cover"
               />
             </div>
+            <div className="service-brief-mobile">
+              <p>{this.props.excerpt}</p>
+              <div>
+                <p>Past Client Work:</p>
+                {
+                  tags.map((tag, index) =>{
+                    return(<Link to ={tag.path}><p key={index} className="see-more">{tag.title}</p></Link>)
+                  })
+                }
+              </div>
+            </div>
           </div>
         )
       }

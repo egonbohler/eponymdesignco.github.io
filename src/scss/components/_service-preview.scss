@@ -60,6 +60,9 @@
       margin: auto 25vw auto 0;
       min-width: 360px;
     }
+    .service-brief-mobile{
+      display: none;
+    }
   }
 }
 
@@ -96,7 +99,7 @@
   }
   .service-right{
     position: relative;
-    margin-bottom: 22vh;
+    margin-bottom: 3vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -118,9 +121,12 @@
       width: 100%;
     }
     .service-brief{
-      position: absolute;
+      display: none;
+    }
+    .service-brief-mobile{
+      display: block;
       width: 80vw;
-      margin: 57vh 10vw 1rem 10vw;
+      margin: 1rem 10vw;
     }
   }
 }
@@ -159,7 +165,7 @@
   }
   .service-right{
     position: relative;
-    margin-bottom: 30vh;
+    margin-bottom: 3vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -181,9 +187,11 @@
       width: 100%;
     }
     .service-brief{
-      position: absolute;
+      display: none;
+    }
+    .service-brief-mobile{
       width: 80vw;
-      margin: 57vh 10vw 1rem 10vw;
+      margin: 1rem 10vw;
     }
   }
 }

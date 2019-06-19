@@ -96,6 +96,18 @@ class ProjectPreview extends Component {
                 objectFit="cover"
               />
             </div>
+            <div className="brief-mobile">
+              <div>
+                <p className="tag">Tags:</p>
+                {
+                  tags.map((tag, index) =>{
+                    return(<p key={index} className="tag">{tag}</p>)
+                  })
+                }
+              </div>
+              <p>{this.props.excerpt}</p>
+              <h5 className="see-more">See More</h5>
+            </div>
           </div>
         )
       }

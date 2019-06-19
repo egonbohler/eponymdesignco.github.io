@@ -53,6 +53,9 @@
       margin: auto 0 auto 25vw;
       min-width: 360px;
     }
+    .brief-mobile{
+      display: none;
+    }
   }
   .right{
     position: relative;
@@ -87,6 +90,9 @@
       width: 30vw;
       margin: auto 25vw auto 0;
       min-width: 360px;
+    }
+    .brief-mobile{
+      display: none;
     }
   }
 }
@@ -138,7 +144,7 @@
   }
   .right {
     position: relative;
-    margin-bottom: 18vh;
+    margin-bottom: 3vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -165,9 +171,11 @@
       z-index: 30;
     }
     .brief{
-      position: absolute;
+      display: none;
+    }
+    .brief-mobile{
       width: 80vw;
-      margin: 36rem 10vw 1rem 10vw;
+      margin: 1rem 10vw;
     }
   }
 }
@@ -219,7 +227,7 @@
   }
   .right {
     position: relative;
-    margin-bottom: 18vh;
+    margin-bottom: 3vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -242,13 +250,15 @@
     }
     .project-preview {
       position: relative;
-      margin: -8rem 0 0 10vw;
+      margin: -17vh 0 0 10vw;
       z-index: 30;
     }
     .brief{
-      position: absolute;
+      display: none;
+    }
+    .brief-mobile{
       width: 80vw;
-      margin: 31rem 10vw 1rem 10vw;
+      margin: 1rem 10vw;
     }
   }
 }
