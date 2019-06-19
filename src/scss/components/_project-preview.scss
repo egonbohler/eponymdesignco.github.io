@@ -7,8 +7,10 @@
   color: $action-secondary;
   font-size: $font-size-base;
 }
-
-@media only screen and (min-device-width : 768px){
+//////////////
+/* DESKTOP */
+//////////////
+@media only screen and (min-width : 1072px){
   .preview-img {
     height: 40vh;
     width: 40vw;
@@ -45,7 +47,7 @@
       margin: 15rem 0 0 15rem;
       z-index: 30;
     }
-    .project-excerpt{
+    .brief{
       position: relative;
       width: 30vw;
       margin: auto 0 auto 25vw;
@@ -80,7 +82,7 @@
       margin: 15rem 0 0 -15rem;
       z-index: 30;
     }
-    .project-excerpt{
+    .brief{
       position: relative;
       width: 30vw;
       margin: auto 25vw auto 0;
@@ -89,7 +91,11 @@
   }
 }
 
-@media only screen and (max-device-width : 767px){
+//////////////
+/*  TABLET  */
+//////////////
+
+@media only screen and (max-width : 1071px) and (min-width: 768px){
   .preview-img {
     height: auto;
     width: 80vw;
@@ -101,7 +107,88 @@
 
   .left {
     position: relative;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    .preview-text {
+      width: 100%;
+      height: auto;
+      padding: 0 0 2em 1em;
+      box-sizing: border-box;
+      position: relative;
+      .overflow {
+        display: inline-block;
+        text-transform: uppercase;
+      }
+    }
+    .cover-image{
+      height: 40vh;
+      width: 100%;
+    }
+    .project-preview {
+      position: relative;
+      margin: -16rem 0 0 10vw;
+      z-index: 30;
+    }
+    .brief{
+      width: 80vw;
+      margin: 1rem 10vw;
+    }
+  }
+  .right {
+    position: relative;
+    margin-bottom: 18vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    .preview-text {
+      position: relative;
+      text-align: right;
+      width: 100%;
+      height: auto;
+      padding: 0 1em 2em 0;
+      box-sizing: border-box;
+      .overflow {
+        display: inline-block;
+        text-transform: uppercase;
+      }
+
+    }
+    .cover-image{
+      height: 40vh;
+      width: 100%;
+    }
+    .project-preview {
+      position: relative;
+      margin: -16rem 0 0 10vw;
+      z-index: 30;
+    }
+    .brief{
+      position: absolute;
+      width: 80vw;
+      margin: 36rem 10vw 1rem 10vw;
+    }
+  }
+}
+
+//////////////
+/*  MOBILE  */
+//////////////
+
+@media only screen and (max-width : 767px){
+  .preview-img {
+    height: auto;
+    width: 80vw;
+    border-radius: 3px;
+    -webkit-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Firefox 3.5 - 3.6 */
+    box-shadow: 5px 20px 20px 0px rgba(0, 0, 0, 0.1);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+
+  .left {
+    position: relative;
+    margin-bottom: 3vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -125,16 +212,14 @@
       margin: -8rem 0 0 10vw;
       z-index: 30;
     }
-    .project-excerpt{
-      position: relative;
+    .brief{
       width: 80vw;
-      margin: 2rem 10vw 5rem 10vw;
-      min-width: 360px;
+      margin: 1rem 10vw;
     }
   }
   .right {
     position: relative;
-    margin-bottom: 22vh;
+    margin-bottom: 18vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -160,11 +245,10 @@
       margin: -8rem 0 0 10vw;
       z-index: 30;
     }
-    .project-excerpt{
+    .brief{
       position: absolute;
       width: 80vw;
-      margin: 26rem 10vw 5rem 10vw;
-      min-width: 360px;
+      margin: 31rem 10vw 1rem 10vw;
     }
   }
 }

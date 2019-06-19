@@ -17,7 +17,7 @@ export default ({ data }) => {
                   title={node.frontmatter.title}
                   tags={node.frontmatter.examples}
                   coverImage={node.frontmatter.coverImage}
-                  position="left"
+                  position="service-left"
                   fadeDirection="fade-right"
                   excerpt={node.frontmatter.description}
                 />
@@ -30,7 +30,7 @@ export default ({ data }) => {
                   tags={node.frontmatter.examples}
                   tagPaths={node.frontmatter.examplePaths}
                   coverImage={node.frontmatter.coverImage}
-                  position="right"
+                  position="service-right"
                   fadeDirection="fade-left"
                   excerpt={node.frontmatter.description}
                 />

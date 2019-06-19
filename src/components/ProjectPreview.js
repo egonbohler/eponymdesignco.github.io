@@ -5,13 +5,14 @@ import 'aos/dist/aos.css';
 class ProjectPreview extends Component {
   componentDidMount() {
     const AOS = require('aos');
-    this.aos = AOS
-    this.aos.init()
-};
+    this.aos = AOS;
+    this.aos.init();
+  };
 
-componentDidUpdate() {
-    this.aos.refresh()
-};
+  componentDidUpdate() {
+      this.aos.refresh();
+  };
+
   render(){
     const { tags } = this.props;
     return(
@@ -46,7 +47,7 @@ componentDidUpdate() {
                 objectFit="cover"
               />
             </div>
-            <div className="project-excerpt">
+            <div className="brief">
               <div>
                 <p className="tag">Tags:</p>
                 {
@@ -67,7 +68,7 @@ componentDidUpdate() {
               <span className="hr-active"/>
               <h3 className="overflow">{this.props.title}</h3>
             </div>
-            <div className="project-excerpt">
+            <div className="brief">
               <div>
                 <p className="tag">Tags:</p>
                 {

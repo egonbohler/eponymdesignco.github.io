@@ -20,6 +20,11 @@
         "path": "/contact/"
     },
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "projects-bryson-bohler-wedding-487",
         "path": "/projects/bryson-bohler-wedding/"
@@ -38,6 +43,11 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "projects-malik-for-akron-c59",
         "path": "/projects/malik-for-akron/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "projects-mbody-health-287",
+        "path": "/projects/mbody-health"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",

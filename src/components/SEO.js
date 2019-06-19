@@ -46,6 +46,7 @@ const SEO = ({
         <>
           <Helmet title={seo.title} titleTemplate={titleTemplate}>
             <meta name="description" content={seo.description} />
+            <meta name="viewport" content="width=device-width,initial-scale=1" />
           </Helmet>
         </>
       );

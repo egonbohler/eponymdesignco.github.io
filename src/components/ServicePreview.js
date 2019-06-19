@@ -25,7 +25,7 @@ class ServicePreview extends Component {
         data-aos-once="true"
       >
       {
-        this.props.position === "left" ?
+        this.props.position === "service-left" ?
         (
           <div className={this.props.position}>
             <div className="preview-text">
@@ -40,7 +40,7 @@ class ServicePreview extends Component {
                 objectFit="cover"
               />
             </div>
-            <div className="project-excerpt">
+            <div className="service-brief">
               <div>
                 <p>{this.props.excerpt}</p>
                 <p>Past Client Work:</p>
@@ -60,7 +60,7 @@ class ServicePreview extends Component {
               <span className="hr-active"/>
               <h3 className="overflow">{this.props.title}</h3>
             </div>
-            <div className="project-excerpt">
+            <div className="service-brief">
               <p>{this.props.excerpt}</p>
               <div>
                 <p>Past Client Work:</p>
