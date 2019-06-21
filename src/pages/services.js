@@ -8,7 +8,7 @@ export default ({ data }) => {
   console.log('data', data);
   return(
     <Layout>
-      <SEO />
+      <SEO title="Eponym Design Co. – Services" />
       <div className="background secondary">
         <h3 className="team-title work-title">Services</h3>
         {data.allMarkdownRemark.edges.map(({ node }, index) => {

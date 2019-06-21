@@ -7,7 +7,7 @@ import SEO from "../components/SEO"
 export default ({ data }) => {
   return(
     <Layout>
-      <SEO />
+      <SEO title="Eponym Design Co. – Work"/>
       <div className="background secondary ">
         <h3 className="team-title work-title">Past Work</h3>
           {data.allMarkdownRemark.edges.map(({ node }, index) => {

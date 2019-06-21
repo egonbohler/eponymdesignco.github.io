@@ -9,7 +9,7 @@ import SEO from "../components/SEO"
 export default ({ data }) => {
   return (
     <Layout currentPath='/'>
-      <SEO />
+      <SEO title="Eponym Design Co."/>
       <HeroSection />
       <AboutSection />
       <div className="background secondary">
