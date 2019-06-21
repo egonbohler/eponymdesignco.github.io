@@ -3,7 +3,7 @@
     title: 'Eponym Design Co.',
     description: 'Eponym Design Collective. A Cleveland, Ohio based creative studio.',
     url: 'https://eponym.design',
-    author: 'Eponym Design Co.'
+    author: 'Eponym Design Co.',
     contact: {
       phone: '440 561 6386',
       email: 'hello@eponym.design',
