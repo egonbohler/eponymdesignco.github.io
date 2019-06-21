@@ -35,7 +35,7 @@ class ServicePreview extends Component {
             <div className="preview-cover">
               <Img
                 fluid={this.props.coverImage.childImageSharp.fluid}
-                alt={this.props.title}
+                alt={`Image of ${this.props.title}`}
                 className="cover-image"
                 objectFit="cover"
               />
@@ -46,7 +46,7 @@ class ServicePreview extends Component {
                 <p>Past Client Work:</p>
                 {
                   tags.map((tag, index) =>{
-                    return(<Link to ={tag.path}><p key={index} className="see-more">{tag.title}</p></Link>)
+                    return(<Link to ={tag.path} aria-label={`Link to ${tag.title}`}><p key={index} className="see-more">{tag.title}</p></Link>)
                   })
                 }
               </div>
@@ -66,7 +66,7 @@ class ServicePreview extends Component {
                 <p>Past Client Work:</p>
                 {
                   tags.map((tag, index) =>{
-                    return(<Link to ={tag.path}><p key={index} className="see-more">{tag.title}</p></Link>)
+                    return(<Link to ={tag.path} aria-label={`Link to ${tag.title}`}><p key={index} className="see-more">{tag.title}</p></Link>)
                   })
                 }
               </div>
@@ -74,7 +74,7 @@ class ServicePreview extends Component {
             <div className="preview-cover">
               <Img
                 fluid={this.props.coverImage.childImageSharp.fluid}
-                alt={this.props.title}
+                alt={`Image of ${this.props.title}`}
                 className="cover-image"
                 objectFit="cover"
               />
@@ -85,7 +85,7 @@ class ServicePreview extends Component {
                 <p>Past Client Work:</p>
                 {
                   tags.map((tag, index) =>{
-                    return(<Link to ={tag.path}><p key={index} className="see-more">{tag.title}</p></Link>)
+                    return(<Link to ={tag.path} aria-label={`Link to ${tag.title}`}><p key={index} className="see-more">{tag.title}</p></Link>)
                   })
                 }
               </div>

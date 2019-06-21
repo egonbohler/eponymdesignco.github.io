@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 class MenuButton extends Component {
   state = { hamburgerActive: false }
-  
+
   handleToggle = () => {
     this.setState(prevState => ({
       hamburgerActive: !prevState.hamburgerActive,
@@ -14,6 +14,8 @@ class MenuButton extends Component {
   render() {
     return (
       <button
+        aria-label="Open Navigation Menu"
+        role="navigation"
         id="toggle-main-menu-mobile"
         className={`hamburger hamburger--3dx ${
           this.state.hamburgerActive ? 'is-active' : ''

@@ -20,8 +20,8 @@ const AboutSection = () => (
         </p>
       </div>
       <div className="flex-child">
-        <Link to="/contact">
-          <div className="button button-primary contact-button">
+        <Link to="/contact" aria-label="Link to Contact Page">
+          <div className="button button-primary contact-button" aria-label="Contact Us">
           Contact Us
           </div>
         </Link>

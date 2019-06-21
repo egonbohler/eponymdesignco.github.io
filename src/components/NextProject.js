@@ -17,7 +17,7 @@ const NextProject = props => {
             )
           }
 
-          <Link className="project-title" to={prev.frontmatter.path}><h1>{prev.frontmatter.title}</h1></Link>
+          <Link className="project-title" to={prev.frontmatter.path} aria-label="Next Project"><h1>{prev.frontmatter.title}</h1></Link>
         </div>
       </div>
     )

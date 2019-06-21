@@ -4,11 +4,12 @@ import Layout from "../components/layout"
 import HeroSection from "../components/hero_section.js"
 import AboutSection from "../components/AboutSection"
 import ProjectPreview from "../components/ProjectPreview"
-
+import SEO from "../components/SEO"
 
 export default ({ data }) => {
   return (
     <Layout currentPath='/'>
+      <SEO />
       <HeroSection />
       <AboutSection />
       <div className="background secondary">
@@ -48,7 +49,7 @@ export default ({ data }) => {
 
           })}
         <Link to="/work">
-          <div className="button button-primary contact-button project-button">
+          <div className="button button-primary contact-button project-button" aria-label="View All Projects">
           All Projects
           </div>
         </Link>

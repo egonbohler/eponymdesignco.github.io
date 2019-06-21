@@ -2,10 +2,12 @@ import React from 'react'
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import ProjectPreview from "../components/ProjectPreview"
+import SEO from "../components/SEO"
 
 export default ({ data }) => {
   return(
     <Layout>
+      <SEO />
       <div className="background secondary ">
         <h3 className="team-title work-title">Past Work</h3>
           {data.allMarkdownRemark.edges.map(({ node }, index) => {
@@ -43,7 +45,7 @@ export default ({ data }) => {
 
           })}
           <Link to="/contact">
-            <div className="button button-primary contact-button project-button">
+            <div className="button button-primary contact-button project-button" aria-label="Contact Us">
             Contact us
             </div>
           </Link>

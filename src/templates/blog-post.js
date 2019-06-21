@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Img from 'gatsby-image'
 import Layout from "../components/layout"
 import NextProject from "../components/NextProject"
+import SEO from "../components/SEO"
 
 export default ({ data, location, pageContext}) => {
   const post = data.markdownRemark;
@@ -11,6 +12,10 @@ export default ({ data, location, pageContext}) => {
   const { next, prev } = pageContext;
   return (
     <Layout>
+      <SEO
+        title={`Eponym Design Co. – ${title}`}
+        description={post.html}
+      />
       <div className="project-body">
         <h1 className="project-title">{title}</h1>
         <div className="tags-line">

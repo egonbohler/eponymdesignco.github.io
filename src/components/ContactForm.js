@@ -3,9 +3,9 @@ import React from 'react'
 const ContactForm = () => (
   <div className="contact-form">
     <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-      <input type="hidden" name="form-name" value="contact" />
-      <p class="hidden">
-       <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      <input type="hidden" name="form-name" value="contact" aria-hidden="true"/>
+      <p class="hidden" aria-hidden="true">
+       <label aria-hidden="true">Don’t fill this out if you're human: <input name="bot-field" aria-hidden="true"/></label>
       </p>
       <p>
       <label for="name">Hi! My name is</label>
@@ -37,7 +37,7 @@ const ContactForm = () => (
        <input type="email" name="email" placeholder="email" required/>
       </p>
       <p>
-       <button type="submit" className="form-button">Send</button>
+       <button type="submit" className="form-button" aria-label="Submit Form">Send</button>
       </p>
     </form>
   </div>

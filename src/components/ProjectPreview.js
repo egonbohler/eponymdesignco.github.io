@@ -34,7 +34,7 @@ class ProjectPreview extends Component {
             <div className="preview-cover">
               <Img
                 fluid={this.props.coverImage.childImageSharp.fluid}
-                alt={this.props.title}
+                alt={`Image of ${this.props.title}`}
                 className="cover-image"
                 objectFit="cover"
               />
@@ -42,7 +42,7 @@ class ProjectPreview extends Component {
             <div className="project-preview">
               <Img
                 fluid={this.props.previewImg.childImageSharp.fluid}
-                alt={this.props.title}
+                alt={`Image two of ${this.props.title}`}
                 className="preview-img"
                 objectFit="cover"
               />
@@ -57,7 +57,7 @@ class ProjectPreview extends Component {
                 }
               </div>
               <p>{this.props.excerpt}</p>
-              <h5 className="see-more">See More</h5>
+              <h5 className="see-more" aria-label={`Link to ${this.props.title}`}>See More</h5>
             </div>
           </div>
         )
@@ -83,7 +83,7 @@ class ProjectPreview extends Component {
             <div className="preview-cover">
               <Img
                 fluid={this.props.coverImage.childImageSharp.fluid}
-                alt={this.props.title}
+                alt={`Image of ${this.props.title}`}
                 className="cover-image"
                 objectFit="cover"
               />
@@ -91,7 +91,7 @@ class ProjectPreview extends Component {
             <div className="project-preview">
               <Img
                 fluid={this.props.previewImg.childImageSharp.fluid}
-                alt={this.props.title}
+                alt={`Image two of ${this.props.title}`}
                 className="preview-img"
                 objectFit="cover"
               />
@@ -106,7 +106,7 @@ class ProjectPreview extends Component {
                 }
               </div>
               <p>{this.props.excerpt}</p>
-              <h5 className="see-more">See More</h5>
+              <h5 className="see-more" aria-label={`Link to ${this.props.title}`}>See More</h5>
             </div>
           </div>
         )

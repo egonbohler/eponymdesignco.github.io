@@ -13,16 +13,16 @@ const Footer = props => {
           {
             menuLinks.map(link => (
               <li key={link.name}>
-                <Link to={link.link}>{link.name}</Link>
+                <Link to={link.link} aria-label={link.link}>{link.name}</Link>
               </li>
             ))
           }
           </ul>
           <IconContext.Provider value={{ color: "white", className: "global-class-name", size: "1rem" }} style={{margin: '0 auto'}}>
             <div>
-              <a href="https://www.facebook.com/eponym.design" target="_blank" rel="noopener noreferrer"><FaFacebookSquare style={{marginRight: '1em'}} /></a>
-              <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer"><FaDribbble style={{marginRight: '1em'}} /></a>
-              <a href="https://www.instagram.com/eponym.design/" target="_blank" rel="noopener noreferrer"><FaInstagram  /></a>
+              <a href="https://www.facebook.com/eponym.design" aria-label="Link to Facebook Page" target="_blank" rel="noopener noreferrer"><FaFacebookSquare style={{marginRight: '1em'}} /></a>
+              <a href="https://dribbble.com/" aria-label="Link to Dribbble Page" target="_blank" rel="noopener noreferrer"><FaDribbble style={{marginRight: '1em'}} /></a>
+              <a href="https://www.instagram.com/eponym.design/" aria-label="Link to Instagram Page" target="_blank" rel="noopener noreferrer"><FaInstagram  /></a>
             </div>
           </IconContext.Provider>
         </div>
