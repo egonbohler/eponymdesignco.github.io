@@ -13,6 +13,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
+exports.onCreateWebpackConfig = ({ actions, stage }) => {
+  // If production JavaScript and CSS build
+  if (stage === 'build-javascript') {
+    // Turn off source maps
+    actions.setWebpackConfig({
+      devtool: false,
+    })
+  }
+};
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve('src/templates/blog-post.js')
