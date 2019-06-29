@@ -25,6 +25,11 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-pages-form-submitted-js",
+        "jsonName": "form-submitted-706",
+        "path": "/form-submitted/"
+    },
+    {
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "projects-bryson-bohler-wedding-487",
         "path": "/projects/bryson-bohler-wedding/"

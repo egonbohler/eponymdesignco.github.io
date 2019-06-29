@@ -6,7 +6,7 @@ import SEO from "../components/SEO"
 
 const Contact = props => (
   <Layout currentPath='/'>
-    <SEO title="Eponym Design Co. – Contact"/>
+    <SEO title="Contact"/>
     <div className="behind">
       <div className="cd-intro">
         <div className="bg-filter" />

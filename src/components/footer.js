@@ -18,7 +18,7 @@ const Footer = props => {
             ))
           }
           </ul>
-          <IconContext.Provider value={{ color: "white", className: "global-class-name", size: "1rem" }} style={{margin: '0 auto'}}>
+          <IconContext.Provider value={{ color: "white", className: "global-class-name", size: "1.5rem" }} style={{ margin: '0 auto' }}>
             <div>
               <a href="https://www.facebook.com/eponym.design" aria-label="Link to Facebook Page" target="_blank" rel="noopener noreferrer"><FaFacebookSquare style={{marginRight: '1em'}} /></a>
               <a href="https://dribbble.com/" aria-label="Link to Dribbble Page" target="_blank" rel="noopener noreferrer"><FaDribbble style={{marginRight: '1em'}} /></a>

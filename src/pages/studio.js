@@ -4,7 +4,7 @@ import SEO from "../components/SEO"
 
 const Studio = props => (
   <Layout currentPath='/'>
-  <SEO title="Eponym Design Co. – Studio" />
+  <SEO title="Studio" />
     <div className="cd-intro behind" />
       <div className="page-body">
         <h1 className="form-title about-header">Our Studio</h1>

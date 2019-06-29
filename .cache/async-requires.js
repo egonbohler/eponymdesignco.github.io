@@ -9,7 +9,8 @@ exports.components = {
   "component---src-pages-index-js": () => import("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-services-js": () => import("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/services.js" /* webpackChunkName: "component---src-pages-services-js" */),
   "component---src-pages-studio-js": () => import("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/studio.js" /* webpackChunkName: "component---src-pages-studio-js" */),
-  "component---src-pages-work-js": () => import("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/work.js" /* webpackChunkName: "component---src-pages-work-js" */)
+  "component---src-pages-work-js": () => import("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/work.js" /* webpackChunkName: "component---src-pages-work-js" */),
+  "component---src-pages-form-submitted-js": () => import("/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/src/pages/form-submitted.js" /* webpackChunkName: "component---src-pages-form-submitted-js" */)
 }
 
 exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/egonbohler/Documents/GitHub/eponymdesignco.github.io/.cache/data.json")
