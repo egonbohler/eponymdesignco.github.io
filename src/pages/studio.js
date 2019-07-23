@@ -2,11 +2,24 @@ import React from 'react';
 import Layout from "../components/layout"
 import SEO from "../components/SEO"
 
+import { motion } from "framer-motion"
+
+const variants = {
+  start: { y: 50, opacity: 0 },
+  end: { y: 0, opacity: 1 },
+}
+
 const Studio = props => (
   <Layout currentPath='/'>
   <SEO title="Studio" />
     <div className="cd-intro behind" />
-      <div className="page-body">
+    <motion.div
+      className="page-body"
+      initial="start"
+      animate="end"
+      transition={{ ease: "easeInOut", duration: 0.8 }}
+      variants={variants}
+    >
         <h1 className="form-title about-header">Our Studio</h1>
         <div className="studio-content">
           <p>Eponym is a small design and web development agency based in Cleveland, Ohio.</p>
@@ -32,7 +45,7 @@ const Studio = props => (
             <li>Presentations</li>
           </ul>
         </div>
-    </div>
+    </motion.div>
   </Layout>
 )
 

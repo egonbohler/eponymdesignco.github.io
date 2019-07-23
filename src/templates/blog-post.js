@@ -4,6 +4,13 @@ import Img from 'gatsby-image'
 import Layout from "../components/layout"
 import NextProject from "../components/NextProject"
 import SEO from "../components/SEO"
+import { motion } from "framer-motion"
+
+
+const variants = {
+  start: { y: 50, opacity: 0 },
+  end: { y: 0, opacity: 1 },
+}
 
 export default ({ data, location, pageContext}) => {
   const post = data.markdownRemark;
@@ -16,7 +23,13 @@ export default ({ data, location, pageContext}) => {
         title={`Eponym Design Co. – ${title}`}
         description={post.html}
       />
-      <div className="project-body">
+      <motion.div
+        className="project-body"
+        initial="start"
+        animate="end"
+        transition={{ ease: "easeInOut", duration: 0.8 }}
+        variants={variants}
+      >
         <h1 className="project-title">{title}</h1>
         <div className="tags-line">
           <p className="tag">Tags:</p>
@@ -45,7 +58,7 @@ export default ({ data, location, pageContext}) => {
         />
         </div>
         <NextProject prev={prev} next={next}/>
-      </div>
+      </motion.div>
 
     </Layout>
   )
